@@ -1,0 +1,422 @@
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: antiquewhite;
+	box-sizing: border-box;
+	background-image: url("Trade.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: screen;
+	opacity: 3;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+			}
+
+
+/*This holds the header info*/
+.container-top
+		{
+	display: flex;
+	flex-direction: column;
+	opacity: .7;
+	width: 100%;
+	height: auto;
+	font-size: 30px;
+	font-family: 'Gudea', sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	color: antiquewhite;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 0px;
+	height: auto;
+	/* border: 5px red solid */
+		}
+
+div h1 {
+		display:flex;
+		flex-direction: column;
+		position: absolute;
+		top: 15px;
+		left: 55px;
+		color: antiquewhite;
+		background-color: #552233;
+		text-shadow: 7px 7px: darkmagenta ;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		text-align:left;
+		padding-left: 50px;
+		padding-top: 10px;
+		/* border: 5px white solid; */
+		z-index:10;
+}
+
+span.heading	{
+	font-size: 18pt;
+	font-style: italic;
+	padding-bottom: 10px;
+}
+
+/* This is the list of links in the nav */
+
+div.nav		{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 85px;
+	right: 100px;
+	margin-left: 30px;
+	margin-top: 25px;	
+	margin-bottom: 25px;
+	overflow: visible;	
+}
+
+ul.nav		{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	font-size: 15pt;
+	font-weight: 800;
+	width: 100%;
+	justify-content: center;
+	align-content: center;
+	margin-left: 50px;
+    margin-top: 20px;
+	margin-bottom: 100px;
+
+}
+
+li.nav		{
+	display; flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	margin: 8px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	color: #antiquewhite;
+	font-weight: 800;
+	font-size: 15pt;
+	font-style: italic;
+	padding-left: 10px;
+	height: 25px;
+	border-radius: 30px 40px;
+	z-index:1;
+}
+
+li a	{
+	text-decoration: none;
+}
+
+h2 	{
+	font-family: 'Gudea', sans-serif;
+	color: #553243;
+	text-align: left;
+	font-size: 24pt;
+	
+}
+
+/* Gallery Pages I and II */
+
+div.gallery{
+	position: absolute;
+	top: 125px;
+	left:100px;
+	width: 100%;
+	text-align: center;
+	margin-top: 25px;
+	text-align: center;
+	
+	}
+
+div.gallery-heading{
+	position: absolute;
+	top:125px;
+	left: 100px;
+	text-align: left;
+	margin-top: 25px;
+	
+}
+
+div.p-galleryname1a	{
+	text-align: left;
+	position: absolute;
+	top: 100px;
+	font-size: 20pt;
+	font-weight: 600;
+	color: #552243;
+	margin-left: 25px;
+	font-style: italic;
+	
+}
+
+div.p-galleryname1b	{
+	text-align: left;
+	position: absolute;
+	top: 250px;
+	font-size: 18pt;
+	color: #552243;
+	margin-left: 25px;
+	font-style: italic;
+	
+}
+
+div.p-galleryname2	{
+	text-align: left;
+	position: relative;
+	top: 350px;
+	font-size: 18pt;
+	color: #552243;
+	margin-left: 25px;
+	margin-top: 5px;
+	font-style: italic;
+
+	}
+
+/* The grid: eight equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+ }
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.7; 
+  cursor: pointer; 
+}
+
+img.painting	{
+	border: 50px solid gray;
+	align: center;
+	background-color: antiquewhite;
+	
+}
+
+.column img:hover {
+  opacity: 1;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: flex;
+  clear: both;
+}
+
+/* The expanding image container */
+.container  {
+ position: absolute;
+ top: 500px;
+ bottom: 0;
+ align: center;
+ display: none;
+z-index: 10;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: relative;
+  bottom: 15px;
+  color:  #553243;
+  font-size: 18pt; 
+  font-weight: 800;
+  opacity: 1;
+  background-color:antiquewhite;
+  margin: 0 auto;
+  align: center;
+  width: 50%;
+}
+
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: relative;
+  bottom: 10px;
+  left: 50%;
+  color: white;
+  outline-color: maroon;
+  text-shadow: maroon;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+a	{
+	text-decoration: none;
+}
+
+div.desc
+	{
+		font-size: 18pt;
+		color:#553243;
+	}
+
+		/* #footer {
+			position: absolute;
+			top: 1600px;
+			width: 100%;
+			height: 2.5rem;
+			text-align: center; 
+			font-size:  15pt;
+			font-style: italic; 
+			color: #553344;
+	
+	 	 } */
+
+	  	.footer {
+			position: absolute;
+			display: inline-block;
+			bottom: -15%;
+			Left: -25%;
+			width: 100%;
+			height: 2.5rem;
+			text-align: center; 
+			font-size:  15pt;
+			font-style: italic; 	
+			color: #553344;
+	  		}
+
+		@media (max-width: 600px){
+			.container-top	{
+				width: 100%;
+				min-width: 480px;
+				max-width: 600px;
+			}
+
+		/* @media (max-width: 600px){	 */
+			div h1 {
+				width: 100%;
+				min-width: 480px;
+				max-width: 600px;
+				display: flex;
+				align-items: flex-start;
+				font-size: 36px;
+				padding: 0;
+				padding-left: 15px;
+				margin-bottom: 0
+				margin: 0 auto;
+				position: absolute;
+				left: 0;
+				right: 75%;
+			}
+
+			/* @media (max-width: 600px){ */
+				div.nav{
+				width: 100%;
+				margin: 0 auto;
+				min-width: 480px;
+				max-width: 600px;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				position: absolute;
+				top:  75px;
+				left: 0;
+				right: 10px;
+			}
+
+			/* @media (max-width: 600px){ */
+			ul.nav {
+				margin-left: 0
+				width: 100%;
+				padding: 0;
+				font-size: 12px;
+			}
+
+			/* @media (max-width: 600px){ */
+			li{
+				display; flex;
+				flex-direction: column;
+				align-content: flex-start;
+				font-size: 12px;
+				}
+
+			/* @media (max-width: 600px){		 */
+				div.gallery{
+				position: absolute;
+				top: 125px;
+				left:10px;
+				right: 0;
+				width: 100%;
+				text-align: center;
+				margin-top: 25px;
+				text-align: center;
+			/* border: 5px solid brown; */
+			}
+
+			/* @media (max-width: 600px){ */
+			div.p-galleryname1a	{
+				text-align: left;
+				position: absolute;
+				top: 100px;
+				font-size: 20pt;
+				font-weight: 600;
+				color: #552243;
+				margin-left: 0px;
+				font-style: italic;
+				/* border: 5px solid darkkhaki; */
+			}
+			
+			/* @media (max-width: 600px){ */
+			div.p-galleryname1b	{
+				text-align: left;
+				position: absolute;
+				top: 250px;
+				font-size: 18pt;
+				color: #552243;
+				margin-left: 0px;
+				font-style: italic;
+				/* border: 5px solid darkkhaki; */
+			}
+			
+			/* @media (max-width: 600px){	 */
+			div.p-galleryname2	{
+				text-align: left;
+				position: relative;
+				top: 350px;
+				font-size: 18pt;
+				color: #552243;
+				margin-left: 0px;
+				margin-top: 5px;
+				font-style: italic;
+			}
+
+			/* @media (max-width: 600px){	 */			
+				img.painting	{
+					border: 15px solid gray;
+					align: center;
+					background-color: antiquewhite;
+			}	
+			@media (max-width: 600px){
+			div.desc	{
+				font-size: 12pt;
+			} 
+		}
+		
+			@media (max-width: 600px){	
+				div.footer {
+					display: flex;
+					position: absolute;
+					flex-direction: row;
+					margin-left: 5px;
+					margin-right: 5px;
+					margin-bottom: 20px;
+					margin-top: 20px;
+					top: 218%;
+					left: 50%;
+					width: 100%;
+					height: 2.5rem;
+					font-size:  10pt;
+					font-style: italic; 
+					color: #553344;	
+				  }
+		} 
+	}
