@@ -163,7 +163,7 @@ li a	{
 	color:#442255;
 	font-size: 15pt;
 	font-family: Elsie; serif;
-	text-shadow: 1px 1px navy;
+	/* text-shadow: 1px 1px navy; */
 	overflow: auto;	
 	z-index: 10;
 	
