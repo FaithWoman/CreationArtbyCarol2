@@ -160,8 +160,10 @@ li a	{
 	background-size: cover;
 	background-position: absolute;
 	opacity: .5;
+	color:#553355;
 	font-size: 15pt;
 	font-family: Elsie; serif;
+	font-weight: 600;
 	/* text-shadow: 1px 1px navy; */
 	overflow: auto;	
 	z-index: 10;
