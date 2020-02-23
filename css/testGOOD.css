@@ -162,6 +162,7 @@ li a	{
 	opacity: .5;
 	color:#442255;
 	font-size: 15pt;
+	font-family: Elsie; serif;
 	text-shadow: 1px 1px navy;
 	overflow: auto;	
 	z-index: 10;
