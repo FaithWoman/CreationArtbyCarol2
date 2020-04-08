@@ -8,7 +8,7 @@
 	body		{
 		background-color: antiquewhite;
 		box-sizing: border-box;
-		background-image: url("Trade.jpg");
+		background: url("Trade.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-blend-mode: screen;
