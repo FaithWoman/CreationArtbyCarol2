@@ -572,8 +572,8 @@ img.bio {
 /*here are the mechanics of the back and forth painting displays*/
 @media (max-width: 600px){
 	.card {
-		width: 100px;
-		height: 100px;
+		width: 200px;
+		height: 200px;
 		position: relative;
 		right: 10px;
 		left: 10px;
@@ -589,8 +589,8 @@ img.one {
 
 @media (max-width: 600px){
 	img.one {
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	}
 }
 .card .img-top {
@@ -608,8 +608,8 @@ img.one {
 		position: absolute; 
 		top: 0;
 		left: 0;
-		width: 100px;
-		height: 100px;
+		width: 200px;
+		height: 200px;
 		
 		z-index: 99;
 	}
@@ -641,7 +641,7 @@ div.neath-multi {
 			display: flex;
 			flex-direction: column;
 			position: absolute;
-			top: 400%;
+			top: 550%;
 			margin-left: 5px;
 			margin-right: 5px;
 			align-content: center;
@@ -817,8 +817,8 @@ span.subm {
 
 @media (max-width: 768px){
 	.card{
-		width: 100px;
-		height: 100px;
+		width: 200px;
+		height: 200px;
 
 	}
 }
