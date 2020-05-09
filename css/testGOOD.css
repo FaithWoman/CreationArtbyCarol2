@@ -4,79 +4,120 @@
     *::after {
       box-sizing: inherit;
 	}
-	
-	body		{
+	f
+	body	{
 		background-color: antiquewhite;
 		box-sizing: border-box;
-		background: url("Trade.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-blend-mode: screen;
-		opacity: 3;
+		opacity: 8;
 		margin: 0 auto;
-			
+		width: 100%;
+		z-index: 99;		
 }
-				
+	@media (max-width: 600px){	
+	body	{
+	background-color: antiquewhite;
+	box-sizing: border-box;
+	width: 600px;		
+	}
+	}
 /*This holds the header info*/
 .container-top {
 	display: flex;
 	flex-direction: column;
 	opacity: .7;
 	width: 100%;
-	height: auto;
 	font-size: 30px;
 	font-family: 'Gudea', sans-serif;
 	font-weight: 600;
 	font-style: italic;
+	background-color: #552233;
 	color: antiquewhite;
 	margin-right: 20px;
-	margin-left: 0px;
-	margin-top: 0px;
-	height: auto;	
-		}
+	margin-left: 20px;
+	height: 175px;
+		
+	} 
 
-div h1 {
+	@media (max-width: 600px){
+	.container-top	{
+	width: 100%;
+	min-width: 480px;
+	max-width: 600px;
+	height: 130px;
+	}
+  }
+	
+/* Main heading of page */
+h1 {
 		display:flex;
 		flex-direction: column;
 		position: absolute;
-		top: 15px;
-		left: 55px;
+		top:0;
+		left: 40px;
 		color: antiquewhite;
-		background-color: #552233;
-		text-shadow: 7px 7px: darkmagenta ;
+		text-shadow: 7px: darkmagenta ;
 		width: 100%;
-		height: auto;
-		margin: 0 auto;
-		text-align:left;
-		padding-left: 50px;
-		padding-top: 10px;
-		z-index:10;
-}
+		/*height: auto;*/
+		margin-left: 30px
+		margin-right: 30px;
+		z-index:1;
+		font-style: italic;
+		padding: 15px;
+		padding-top: 0;		
+	}
 
-span.heading	{
-	font-size: 18pt;
+@media (max-width: 600px){	
+	h1 {
+	min-width: 480px;
+	max-width: 600px;
+	font-size: 30pt;
+	padding: 0;
+	padding-left: 15px;
+	padding-botton: 5px;
+	margin-right: 15px;
+	margin-bottom: 	5px; 
+	position: absolute;
+	left: 15px;
+	}
+}
+	/* Subheading on top */
+	span.heading	{
+	font-size: 20pt;
 	font-style: italic;
 	padding-bottom: 10px;
 }
 
 /* This is the list of links in the nav */
 
-div nav		{
+	nav		{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	width:80%;
 	position: absolute;
-	top: 75px;
-	right: 100px;
-	margin-left: 30px;
-	margin-top: 25px;	
+	top: 19%;
+	left: 20px;
+	height: auto;	
 	margin-bottom: 25px;
 	overflow: visible;
 }
+	@media (max-width: 600px){
+	nav{
+	width: 25%;
+	margin: 0 auto;
+	position: absolute;
+	top: 15%;
+	left: 0;
+	min-width: 480px;
+	max-width: 600px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	}
+}
+
 
 a.link{
-	color: maroon;
+	color: hsla(0, 47%, 35%, 0.349);
 }
 
 a.visited{
@@ -90,99 +131,164 @@ a.hover {
 a.active {
 	color: #334255;
 }
-
-ul.nav		{
+/* This is the nav list that holds the gallery links */
+	ul.nav		{
 	display: flex;
 	flex-direction: row;
 	list-style: none;
 	font-size: 24pt;
 	font-weight: 800;
 	width: 100%;
-	justify-content: center;
-	align-content: center;
-	margin-left: 50px;
-	margin-top: 20px;
+	justify-content: flex-end;
+	align-content: flex-end;	
 }
-
+@media (max-width: 600px){
+	ul.nav {
+		position: absolute;
+		top: 2%;	
+		left: 5%;
+		width: 75%;
+		padding: 0;
+	}
+}
+/* These are the individual list items in the gallery nav */
 li.nav		{
 	display; flex;
 	justify-content: space-around;
 	align-items: center;
 	width: 150px;
 	margin: 20px 8px;
-	color: #antiquewhite;
 	font-weight: 800;
-	font-size: 15pt;
+	font-size: 16pt;
+	font-style: italic;
 	padding-left: 10px;
 	height: 25px;
-	border-radius: 30px 40px;
-	z-index:1;
+	z-index:99;
 }
+
+@media (max-width: 600px){
+	li.nav{
+		font-size: 12pt;
+		padding: 0;
+		padding-bottom: 5px;
+	}	
+	}
+
 
 li a	{
 	text-decoration: none;
 }
-		
-/*large div for frontpage article*/
-
-	.container-main{
-		display: flex;
-		opacity:.5;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
-		width: 60%;
-		text-decoration: none;
-		flex-direction: row;
-		position: absolute;
-		top: 150px;
+/* This holds the article and sidebar divs */
+div.multi {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 2000px;
+	background-color: antiquewhite;
 }
 
+@media (max-width: 600px){
+	div.multi {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 100%;
+		height: 2000px;
+		background-color: antiquewhite;
+		
+	}
+	}				
 /* This holds the bio and artist's statement */
-
 	.intro{
 	display: flex;
-	width: 60%;
-	margin-right: 25px;
-	margin-left: 50px;
-	margin-top: 25px;
+	flex-direction: column;
+	width: 70%;
+	margin-right: 10px;
+	margin-left: 35px;
+	margin-top: 20px;
 	padding-left:10px;
 	padding-right:10px;
 	padding:top: 25px;
 	text-decoration: none;
-	flex-direction: column;
+	/* flex-direction: column; */
 	position: absolute;
-	top: 150px;
 	left: 50px;
-	background-image: url('Trade.jpg');
+	background: url('Trade.jpg');
 	background-blend-mode: screen;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: absolute;
-	opacity: .5;
+	opacity: .7;
 	color:##000066;
 	font-size: 15pt;
 	font-family: Elsie; serif;
 	font-weight: 700;
-	/* text-shadow: 1px 1px navy; */
 	overflow: auto;	
 	z-index: 10;
-	
-	/* border: 5px maroon solid */
-} 
+	} 
 
+	@media (max-width: 600px){
+		.intro	{
+			width: 100%;
+			min-width: 480px;
+			max-width: 600px;
+			display: flex;
+			flex-direction: column;
+			position: absolute;
+			top: 28%;
+			left:3px;
+			margin: 0 auto;
+			padding: 0;
+			line-height: 20pt;
+		  }
+		}
+		p	{
+			/* padding-bottom: 5px;  */
+			margin-left: 5px;
+			margin-right: 5px;
+			font-size: 16pt;
+			font-weight: 600; 
+			color: #553343;
+			font-style: italic;
+			text-align: left;
+			
+		}
+			@media (max-width: 600px){
+			p	{
+			margin-left: 0;
+			margin-right: 0;
+			font-size: 14pt;
+			font-weight: 600; 
+			color: #553343;
+			font-style: italic;
+			text-align: left;
+		
+		}
+	}	
+/* This is the main bio article heading */
 p.intro-title {
-	padding: 0px;
+	padding: 10px; 
 	font-size: 24pt;
 	font-weight: 600px;
-	margin-bottom:10px;
-	margin-top:10px;
+	margin-bottom:5px;
+	margin-top:5px;
 	width:100%;
 	opacity: 1;
 	color: #553343
-	z-index: 10;
+	z-index: 10; 	
 } 
 
+@media (max-width: 600px){
+	p.intro-title {
+		font-size: 22pt;
+		padding-left: 10px;
+		margin-top: 0;
+}
+}
+
+
+/*These are the text narrative subheadings*/
 span.intro-sub	{
 	font-size: 20pt;
 	color: darkmagenta;
@@ -191,10 +297,15 @@ span.intro-sub	{
 	background-color: antiquewhite;
 	margin-left: 5px;
 	padding: 5px;
-	z-index: 10;
-	/* border: 5px orange solid */
+	z-index: 10;	
 }
 
+@media (max-width: 600px){
+span.intro-sub	{
+	font-size: 17pt;
+}
+}
+/*This is the narrative text itself*/
 span.intro-p1{
 	font-size: 15pt;
 	background-color: antiquewhite;
@@ -204,71 +315,202 @@ span.intro-p1{
 	line-height: 22pt;
 	z-index: 10;
 }
-
-/* Photo of the artist */
-
-img {
-	 float: left;
-	 width:150px;	
-	 padding-right: 10px;
-	 padding-left: 10px;
-	 text-decoration: none;
-	 z-index: 10;
-	}
-	
-/*right panel exhibits*/ 
-/* This is the outside container for the gallery toggle links */
-
-.container {
-	display: flex;
-	flex-direction:row;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin: 0 auto;
-	margin-left: 25px;
-	margin-right: 25px;
-	width:90%;
-	padding:0px;
-	overflow:auto;
-	height: auto;
-	/* border: 5px darkcyan solid */	
-   }
-
-p	{
-	/* padding-bottom: 10px; */
+@media (max-width: 600px){
+span.intro-p1{
+	font-size: 95%;
+	background-color: antiquewhite;
+	opacity: 1;
 	margin-left: 5px;
-	margin-right: 5px
-	font-size: 16pt;
-	font-weight: 600; 
-	color: #553343;
-	font-style: italic;
-	text-align: left;
-	/* border: 5px darkgreen solid */
+	padding: 5px;
+	line-height: 20pt;
+	z-index: 10;
+}
 }
 
-/* This is the container within the container for the gallery toggle links */
+/* Photo of the artist */
+img.bio {
+	float: left;
+	width:150px;	
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	z-index: 10;
+   }
+   @media (max-width: 600px){
+   img.bio {
+	float: left;
+	width:150px;	
+	padding-right: 5px;
+	padding-left: 5px;
+   }
+}
 
+   /* Photo of the artist painting outdoors*/
+   img.pleinair {
+	float: right;
+	width:250px;	
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	z-index: 10;
+   }
+   @media (max-width: 600px){
+   img.pleinair {
+	float: right;
+	width:150px;	
+	padding-right: 5px;
+	padding-left: 5px;
+   }
+}   
+.recentptg	{
+	width: 100%;
+	display: block;
+	height: 425px;
+}
+@media (max-width: 600px){
+.recentptg	{
+	width: 100%;
+	display: block;
+	height: 421px;
+	position: sticky;
+	
+}
+}
 
+.recentptgcontainer  {
+	Width: 600px;
+	height: 421px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 0;
+	box-shadow: 5px 5px 5px 3px maroon; 
+}
+
+@media (max-width: 600px){
+.recentptgcontainer  {
+	Width: 600px;
+	height: 421px;
+	margin-left: 0;
+	margin-right: 0px;
+	box-shadow: 5px 5px 5px 3px maroon; 
+}
+}
+
+/* These are the recent works picture captions */
+.recentn {	
+	width:100%;
+	padding: 15px;
+	height: 40px;
+	text-align: center;
+	font-family: 'Gudea', sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	color:maroon#553344;
+	font-size:14pt;
+	/* margin-top: 5px; */	
+	}
+	@media (max-width: 600px){	
+	.recentn {	
+		width:65%;
+		padding: 3px;
+		height: 20px;
+		text-align: left;
+		font-family: 'Gudea', sans-serif;
+		font-weight: 600;
+		font-style: italic;
+		color:maroon#553344;
+		font-size:10pt;	
+		}
+	}
+		/* right panel image toggle links to online galleries/	 */
+		
+
+/*right panel exhibits*/ 
+
+/* This is the inside container for the gallery toggle links */
+
+.container { 
+	float:right;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-items: space-between;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	width:100%;
+	padding:25px;
+	padding-top:0px;
+	overflow:auto;
+	height: auto;
+   }
+   @media (max-width: 600px){
+   .container { 
+	box-sizing: content-box;
+	float: center;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-between;
+	/* flex-wrap: wrap; */
+	margin: 0 auto;
+	margin-left: 5px;
+	margin-right: 5px;
+	width:100%;
+	padding:15px;
+	padding-top:0px;
+	overflow:visible;
+	height: auto;
+	position: absolute;
+	left: 0;
+	top: 1000px;
+
+   }
+   } 
+
+/* This is the outside container for the gallery toggle links */
 	.exhibits {
-		display: flex;
-	   justify-content: space-between;
+	   box-sizing: border-box;
+	   display: flex;
+	   align-items: center;
+	   justify-items: space-between;
 	   padding: 0px;
-	   margin-left: 25px;
-	   flex-direction: row;
+	   margin-right: 10px;
+	   flex-direction: column;
 	   text-align: center;
 	   margin: 0 auto;
-	   margin-bottom: 25px;
-	   border: 5px white solid;
+	   margin-bottom: 25px;	
 	   position: absolute;
-	   right:-20px;
-		top: 200px;  
-		width: 30%;
+	   right:0;
+		top: 35%;  
+		width: 20%;
 		height: auto;
 		opacity: .7;
 		background-color:#552233;
 		overflow: visible;
 		
+	
 	}
+@media (max-width: 600px){
+	.exhibits {	
+		/* float: right; */
+		box-sizing: content-box;
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-around;
+		padding: 15px;
+		margin-right: 5px;
+		margin-left: 5;
+		width: 100%;
+		flex-direction:row;
+		flex-wrap: wrap;
+		position: absolute;
+		top: 1100px;
+
+	}}
+		
+/* This is the main heading for the five exhibits image links */
 		p.heading   {
 		display: flex;
 		align-items: center;
@@ -279,269 +521,232 @@ p	{
 		font-style: italic;
 		color:antiquewhite;
 		font-size:24pt;
-		font-italic;
-		margin-bottom: 25px;
+		font-style: italic;
+		margin-bottom: 10px;
 }
 
-p.subheading   {
+/*This is the back and forth painting gallery links section*/
+
+/*This is the gallery title text*/
+.galleryn   {
 	display: inline-block;
-	align-items: center;
+	align: center;
 	width:100%;
-	text-align: left;
+	height: 40px;
+	padding:0;
+	text-align: center;
 	font-family: 'Gudea', sans-serif;
 	font-weight: 600;
 	font-style: italic;
 	color:antiquewhite;
 	font-size:14pt;
-	margin-bottom: 10px;
-	}
-
-
-li.heading   {
-	display: flex;
-	align-items: center;
-	width:100%;
-	justify-content: center;
-	color:antiquewhite;
-	font-size:24pt;
-	font-italic;
 	margin-bottom: 25px;
-	position: absolute;
-	right: 30px;
-	top: 800px;
 	}
+	@media (max-width: 600px){
+	.galleryn   {
+		display: inline-block;
+		align: center;
+		width:100%;
+		height: 20px;
+		padding:0;
+		text-align: left;
+		font-family: 'Gudea', sans-serif;
+		font-weight: 600;
+		font-style: italic;
+		color:antiquewhite;
+		font-size:11pt;
+		margin-bottom: 15px;
+		}
+	}	
 
-/* right panel image toggle links to online galleries/	 */
-
-
-.painting	{
-	display: flex;
-	flex-direction: row;
-	padding: 0;	
-}
-
+	/*here are the mechanics of the back and forth painting displays*/
 .card {
-        width: 200px;
-        height: 200px;
+        width: 225px;
+        height: 225px;
 		position: relative;
 		display: inline-block;
+		margin-bottom: 30px;
+		margin-top: 25px;
 }
 
+/*here are the mechanics of the back and forth painting displays*/
+@media (max-width: 600px){
+	.card {
+		width: 100px;
+		height: 100px;
+		position: relative;
+		right: 10px;
+		left: 10px;
+		display: inline-flex;
+		margin: 15px;
+	}
+	}
+img.one {
+	width: 225px;
+	height: 225px;
+	
+}
+
+@media (max-width: 600px){
+	img.one {
+	width: 100px;
+	height: 100px;
+	}
+}
 .card .img-top {
 		display: none;
 		position: absolute; 
 		top: 0;
 		left: 0;
+		width: 225px;
+		height: 225px;		
 		z-index: 99;
 }
+@media (max-width: 600px){
+	.card .img-top {
+		display: none;
+		position: absolute; 
+		top: 0;
+		left: 0;
+		width: 100px;
+		height: 100px;
+		
+		z-index: 99;
+	}
+	}
 
 .card:hover .img-top {
 display: inline;
+
 }
 
-/* This is for display of current painting */
-#myDIV {
-			position: absolute;
-			top: 550px;
-			left: 10px;
-			width: 260px;
-			height: 200px;
-			background-image: url("tiny.jpg");
-			background-repeat:no-repeat;
-			opacity: 0;
-			-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
-			animation: mymove 5s infinite;
-			border: 5px solid antiquewhite;
-			z-index: 100;
-			margin-right: 10px;
-		}
-		  
-		  /* Chrome, Safari, Opera */
-		  @-webkit-keyframes mymove {
-			from {opacity: 0);}
-			to {opacity: .8;}
-		  
-		  }
-		  /* Standard syntax */
-		  @keyframes mymove {
-			 from {opacity: 0);}
-			to {opacity: .8;}
-		  }
 
 	
-/* Schedule Information with dropdown menu */
+/* This should hold the schedule, the form, the footer */
+div.neath-multi {
+	width: 100%;
+	height: 650px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 225%;
+	background-color: antiquewhite;
+
+}
+@media (max-width: 600px){
+		div.neath-multi {
+			width: 100%;
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			position: absolute;
+			top: 340%;
+			margin-left: 5px;
+			margin-right: 5px;
+			align-content: center;
+			
+		}	
+}
+
+/* Schedule Information with accordian menu */
 
 /*List for scheduling information of art events*/
 
-.schedule{
-	display: block;	
+
+.schedule  {
+display: flex;
+flex-direction: column;
+align-content: flex-start;
+align-items: flex-start;
+width: 100%;
+position: absolute;
+top: 0px;
+/* left: 15px; */
+
+}
+@media (max-width: 600px){
+.schedule  {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	width: 50%;
 	position: absolute;
-	top: 775px;
-	right: 0;
-	width: 100%;
-	border: 5px black solid
+	top: 250px;
+	margin-left: 0;
+	margin-right: 0;
+	
 }
+}	
 
-ul.schedule	{
-	position: relative;
-	background-color: antiquewhite;
-	list-style: none;
-	width: 100%;
-	margin-top: 25px;
-}
-
-ul.schedule:hover > li{
-	display: block;
-	width: 100%;
-}
-
-ul {
-	list-style: none;
-	  margin: 0;
-	  padding: 0;
-  }
-  
-  li.heading   {
-	  display: flex;
-	  align-items: center;
-	  width:100%;
-	  justify-content: center;
-	  color:#553344;
-	  font-family: 'Gudea', sans-serif;
-	  font-size:24pt;
-	  font-italic;
-	  margin-bottom: 15px;
-	  }
-  
-  .submenu {
-	  display: none;
-	  position: absolute;
-	  background-color: #552233;
-	  top: 30px;
-	  width: 100%;
-  }
-
-  submenu li:hover {
-	background-color: navy;
-	padding: 10px; 
+.sched-heading{		
+	font-size: 14pt;
+	font-style: italic;
+	font-weight: 300;
+	line-height: 50px;
 	padding-top: 0;
-  }
-	  
-  submenu li a{
-	color: antiquewhite;
-	font-size:20pt;
-	font-family: 'Gudea', sans-serif;
-	  font-weight: 600;
-	  font-style: italic;
-	text-decoration: none;
-	border-bottom: 1px solid white;
+	padding-left: 10px;
+	margin-left: 25px;
 }
-
-li.schedule {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	position: relative;
-	top: 5px;
-	border: none;
+@media (max-width: 600px){
+.sched-heading{		
+	font-size: 14pt;
+	font-style: italic;
+	font-weight: 300;
+	line-height: 50px;
+	padding-top: 0;
+	padding-left: 10px;
+	margin-left: 25px;
 }
-  
-	.main-navigation {
-	  display: flex;
-	  background-color: antiquewhite;
 }
-	
-	.main-navigation li {
-	  flex: 1;
-	  height: auto;
-	  display: flex; 
-	  justify-content: center;
-	  align-items: center;
-	  position: relative;
-	  margin-top: 5px;
-	  margin-bottom: 5px;
-	  font-family: 'Gudea', sans-serif;
-	  font-weight: 600;
-	  font-style: italic;
-	  font-size: 18pt;
-	  font-style: italic;
-	  width: 100%;
-}
-
-
-	
-	.main-navigation > li:hover{
-	  background-color: black;
-	  padding: 5px;
-	  font-size: 24pt;  
-	  
-	}
-	
-	.main-navigation > li > a {
-	  text-decoration: none;
-	  font-family: 'Gudea', sans-serif;
-	  font-weight: 600;
-	  font-style: italic;
-	  font-size: 24pt;
-	  color: #553343;
-	  margin-bottom: 10px;
-	  margin-top: 0px;
-	  padding: 10px;
-	}
-	
-	.main-navigation li:hover a {
-	  color: antiquewhite;
-	  padding: 5px;
-
-	}
-	.main-navigation li:visited a {
-		color: palegoldenrod;
-	}
-	
 	a		{
 		text-decoration: none;
 	}
 
-	/* This is the form viewers can submit to receive emails*/
+	/* This is the container for the form viewers can submit to receive emails*/
 
-	li.email	{
+	.email	{
+		display: flex;
+		flex-direction: column;
 		color: antiquewhite;
 		font-size:18pt;
-		padding-bottom: 10px;
-		padding-top: 20px;
-		padding-left: 20px;
-		justify-content: flex-start;
-		
-}
+		font-style: italic;
+		position: absolute; 
+		top: 20px;
+		right: 5px;
+		width: 48%;
+	}
+	@media (max-width: 600px){
+	.email	{
+		display: flex;
+		flex-direction: column;
+		color: antiquewhite;
+		font-size:18pt;
+		font-style: italic;
+		position: absolute; 
+		top: 20px;
+		right: 5px;
+		width: 24%;
+	}
 
 	.form	{
-		display: block;	
+		display: inline-block;	
 		position: absolute;
+		margin-right: 25%;
+		margin-left: 25%;
+		top: 20px;
 		right: 0;
-		top: 1200px;
-		width: 100%;
-		border: 1px black solid;
+		width: 50%;
 		background-color: #553343;
 	
 }
 	
 
-	p.form	{
-		display: flex;
-		align-items: center;
-		position: absolute;
-		top:1200px;
-		width:100%;
-		justify-content: center;
-		font-family: 'Gudea', sans-serif;
-		font-weight: 600;
-		font-style: italic;
-		color:antiquewhite;
-		font-size:24pt;
-		font-italic;
-		margin-bottom: 5px;
-		margin-top: 10px;
+.formheading  {
+	position: absolute;
+	top: 0;
 }
-
 
 span.subm {
 	font-size:14pt;
@@ -549,215 +754,66 @@ span.subm {
 }  
 
 
-/* Footer with Contact Informtion */
-div.container-footer	{
-		display: flex;
-		width: 100%;
+/* Bottom of Page with Contact Informtion */
+.footer	{
+		display: block;
+		text-align: center;
+		width: 80%;
 		position: absolute;
-		bottom: 0;
-		top: 1700px;
-		left: -125px;
-		height: 2.5rem;
-		font-size:  15pt;
+		bottom:0;
+		/* left: 0px; */
+		padding: 10px;
+		height: 40px;
+		font-size:  25pt;
 		font-style: italic; 
 		color: #553344;	
-  
-}
+		background-color: antiquewhite;
+		margin-top: 25px;
 	
-div.footer {
-	display: flex;
-	position: absolute;
-	flex-direction: row;
-	margin: auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	top: 218%;
-	width: 100%;
-	height: 2.5rem;
-	font-size:  15pt;
-	font-style: italic; 
-	color: #553344;	
-  }
-  
-
-  @media (max-width: 600px){
-	
-.container-top	{
-	width: 100%;
-	min-width: 480px;
-	max-width: 600px;
-}
-  }
-	@media (max-width: 600px){	
-div h1 {
-	width: 100%;
-	min-width: 480px;
-	max-width: 600px;
-	display: flex;
-	align-items: flex-start;
-	justify-content: flex-start;
-	font-size: 36px;
-	padding: 0;
-	padding-left: 15px;
-	margin-bottom: 0
-	margin: 0 auto;
-	position: absolute;
-	left: 0;
-}
-	}
-	@media (max-width: 600px){
-	nav{
-	width: 100%;
-	margin: 0 auto;
-	min-width: 480px;
-	max-width: 600px;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	position: absolute;
-	top:  200px;
-	right: -400px;
-	
-}
-	}
-	@media (max-width: 600px){
-ul.nav {
-	position: absolute;
-	
-	right: -400px;
-	width: 100%;
-	padding: 0;
-}
-	}
-
-@media (max-width: 600px){
-li{
-	display; flex;
-	flex-direction: row;
-	align-content: flex-start;
-}	
 }
 
-@media (max-width: 600px){
-.intro	{
-	width: 90%;
-	min-width: 480px;
-	max-width: 600px;
-	display: flex;
-	position: absolute;
-	top: 150px;
-	left:0;
-	margin: 0 auto;
-	font-size: 55%;
-	padding: 0;
-	line-height: 20pt;
-	flex-direction:column;
-  }
+
+ @media (max-width: 600px){
+	
+	.footer {
+	display: block;
+	left: 5px;
+	font-size: 10px;
+	width: 	90%;
+	position: absolute; 
+	top: 650px;
+	text-align: left;
+	}
 } 
-
+.returnlink {
+	text-align: right;
+	font-size: 15pt;
+	margin-right: 0;
+	font-weight: bold;
+}
 @media (max-width: 600px){
-.container {
-	min-width: 480px;
-	max-width: 600px;
-	display: flex;
-	flex-direction:row;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin: 0 auto;
-	width:100%;
-	padding:10px;
-	overflow:auto;
-	height: auto;
-	align-content: center;
-	align-items: center;
-	/* border: 5px darkcyan solid */	
-   }
+.returnlink {
+	text-align: right;
+	font-size: 12pt;
+	margin-right: 0;
+}
 }
 
-  @media (max-width: 600px){
- .exhibits	{
-	display: flexbox;
-	flex-direction: row;
-	align-items: center;
-	min-width: 480px;
-	max-width: 600px;
-	width: 100%;
-	position: absolute;
-	top: 2000px;
-	margin: 0 auto;
-	padding-left:10px;
-}
-  }
-
-  @media (max-width: 600px){
-	.container {
-		min-width: 480px;
-		max-width: 600px;
-		display: flex;
-		flex-direction:row;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		margin: 0 auto;
-		width:100%;
-		overflow:auto;
-		height: auto;
-		align-content: center;
-		align-items: center;
-		/* border: 5px darkcyan solid */	
-	   }
-	}
-	
-  @media (max-width: 600px){
-  .painting	{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	padding: 0;	
-  }
-}
-
-@media (max-width: 600px){
-	.schedule	{
-		position: absolute;
-		top: 800px;
-		height:auto;
-		width: 80%
-		}
-	}
-
-
-	@media (max-width: 600px){	
-	ul.schedule	{
-		position: relative;
-		width: 80%;
-		margin-top: 5px;
-	}
-}
-
-@media (max-width: 600px){
-		.form	{
-			position; absolute;
-			top: 1800px;
-			width: 80%;
-		}
-	}
-
-@media (max-width: 600px){ 
-	div.container-footer	{
-		visibility: invisible;
-		opacity: 0;	
-	}
-
-}
- 
-@media (max-width: 768px){
+	 
+	@media (max-width: 768px){
 	div nav{
 	min-width: 768px;
 	max-width: 768px;
 		display: flex;
 	flex-direction: row;
 	}
-
+		padding-left: 10px;
+		margin-left: 25px;
+	}
+	
+		
+	
+		
 
 @media (max-width: 768px){
 	.card{
@@ -780,11 +836,17 @@ li{
 
 }
 @media (max-width: 768px){
-.schedule	{
-	position: absolute;
-	top: 900px;
+	.schedule  {
+		display: flex;
+		flex-direction: column;
+		width: 48%;
+		position: absolute;
+		top: 20px;
+		left: 5px;
+		
+		}
 	}
-}
+
 
 @media (max-width: 768px){
 	.form	{

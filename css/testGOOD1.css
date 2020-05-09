@@ -1,0 +1,802 @@
+
+	*,
+    *::before,
+    *::after {
+      box-sizing: inherit;
+	}
+	
+	body		{
+		background-color: antiquewhite;
+		box-sizing: border-box;
+		background: url("Trade.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-blend-mode: screen;
+		opacity: 3;
+		margin: 0 auto;
+			
+}
+				
+/*This holds the header info*/
+.container-top {
+	display: flex;
+	flex-direction: column;
+	opacity: .7;
+	width: 100%;
+	height: auto;
+	font-size: 30px;
+	font-family: 'Gudea', sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	color: antiquewhite;
+	margin-right: 20px;
+	margin-left: 0px;
+	margin-top: 0px;
+	height: auto;	
+		}
+
+div h1 {
+		display:flex;
+		flex-direction: column;
+		position: absolute;
+		top: 15px;
+		left: 55px;
+		color: antiquewhite;
+		background-color: #552233;
+		text-shadow: 7px 7px: darkmagenta ;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		text-align:left;
+		padding-left: 50px;
+		padding-top: 10px;
+		z-index:10;
+}
+
+span.heading	{
+	font-size: 18pt;
+	font-style: italic;
+	padding-bottom: 10px;
+}
+
+/* This is the list of links in the nav */
+
+div nav		{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 75px;
+	right: 100px;
+	margin-left: 30px;
+	margin-top: 25px;	
+	margin-bottom: 25px;
+	overflow: visible;
+}
+
+a.link{
+	color: maroon;
+}
+
+a.visited{
+	color: darkcyan;
+	background-color: antiquewhite;
+}
+
+a.hover {
+	color: peachpuff;
+}
+a.active {
+	color: #334255;
+}
+
+ul.nav		{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	font-size: 24pt;
+	font-weight: 800;
+	width: 100%;
+	justify-content: center;
+	align-content: center;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+li.nav		{
+	display; flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 150px;
+	margin: 20px 8px;
+	color: #antiquewhite;
+	font-weight: 800;
+	font-size: 15pt;
+	padding-left: 10px;
+	height: 25px;
+	border-radius: 30px 40px;
+	z-index:1;
+}
+
+li a	{
+	text-decoration: none;
+}
+		
+/*large div for frontpage article*/
+
+	.container-main{
+		display: flex;
+		opacity:.5;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		width: 60%;
+		text-decoration: none;
+		flex-direction: row;
+		position: absolute;
+		top: 150px;
+}
+
+/* This holds the bio and artist's statement */
+
+	.intro{
+	display: flex;
+	width: 60%;
+	margin-right: 25px;
+	margin-left: 50px;
+	margin-top: 25px;
+	padding-left:10px;
+	padding-right:10px;
+	padding:top: 25px;
+	text-decoration: none;
+	flex-direction: column;
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	background-image: url('Trade.jpg');
+	background-blend-mode: screen;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: absolute;
+	opacity: .5;
+	color:##000066;
+	font-size: 15pt;
+	font-family: Elsie; serif;
+	font-weight: 700;
+	/* text-shadow: 1px 1px navy; */
+	overflow: auto;	
+	z-index: 10;
+	
+	/* border: 5px maroon solid */
+} 
+
+p.intro-title {
+	padding: 0px;
+	font-size: 24pt;
+	font-weight: 600px;
+	margin-bottom:10px;
+	margin-top:10px;
+	width:100%;
+	opacity: 1;
+	color: #553343
+	z-index: 10;
+} 
+
+span.intro-sub	{
+	font-size: 20pt;
+	color: darkmagenta;
+	font-weight: 600;
+	opacity: 1;
+	background-color: antiquewhite;
+	margin-left: 5px;
+	padding: 5px;
+	z-index: 10;
+	/* border: 5px orange solid */
+}
+
+span.intro-p1{
+	font-size: 15pt;
+	background-color: antiquewhite;
+	opacity: 1;
+	margin-left: 5px;
+	padding: 5px;
+	line-height: 22pt;
+	z-index: 10;
+}
+
+/* Photo of the artist */
+
+img {
+	 float: left;
+	 width:150px;	
+	 padding-right: 10px;
+	 padding-left: 10px;
+	 text-decoration: none;
+	 z-index: 10;
+	}
+	
+/*right panel exhibits*/ 
+/* This is the outside container for the gallery toggle links */
+
+.container {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	margin-left: 25px;
+	margin-right: 25px;
+	width:90%;
+	padding:0px;
+	overflow:auto;
+	height: auto;
+	/* border: 5px darkcyan solid */	
+   }
+
+p	{
+	/* padding-bottom: 10px; */
+	margin-left: 5px;
+	margin-right: 5px
+	font-size: 16pt;
+	font-weight: 600; 
+	color: #553343;
+	font-style: italic;
+	text-align: left;
+	/* border: 5px darkgreen solid */
+}
+
+/* This is the container within the container for the gallery toggle links */
+
+
+	.exhibits {
+		display: flex;
+	   justify-content: space-between;
+	   padding: 0px;
+	   margin-left: 25px;
+	   flex-direction: row;
+	   text-align: center;
+	   margin: 0 auto;
+	   margin-bottom: 25px;
+	   border: 5px white solid;
+	   position: absolute;
+	   right:-20px;
+		top: 200px;  
+		width: 30%;
+		height: auto;
+		opacity: .7;
+		background-color:#552233;
+		overflow: visible;
+		
+	}
+		p.heading   {
+		display: flex;
+		align-items: center;
+		width:100%;
+		justify-content: center;
+		font-family: 'Gudea', sans-serif;
+		font-weight: 600;
+		font-style: italic;
+		color:antiquewhite;
+		font-size:24pt;
+		font-italic;
+		margin-bottom: 25px;
+}
+
+p.subheading   {
+	display: inline-block;
+	align-items: center;
+	width:100%;
+	text-align: left;
+	font-family: 'Gudea', sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	color:antiquewhite;
+	font-size:14pt;
+	margin-bottom: 10px;
+	}
+
+
+li.heading   {
+	display: flex;
+	align-items: center;
+	width:100%;
+	justify-content: center;
+	color:antiquewhite;
+	font-size:24pt;
+	font-italic;
+	margin-bottom: 25px;
+	position: absolute;
+	right: 30px;
+	top: 800px;
+	}
+
+/* right panel image toggle links to online galleries/	 */
+
+
+.painting	{
+	display: flex;
+	flex-direction: row;
+	padding: 0;	
+}
+
+.card {
+        width: 200px;
+        height: 200px;
+		position: relative;
+		display: inline-block;
+}
+
+.card .img-top {
+		display: none;
+		position: absolute; 
+		top: 0;
+		left: 0;
+		z-index: 99;
+}
+
+.card:hover .img-top {
+display: inline;
+}
+
+/* This is for display of current painting */
+#myDIV {
+			position: absolute;
+			top: 550px;
+			left: 10px;
+			width: 260px;
+			height: 200px;
+			background-image: url("tiny.jpg");
+			background-repeat:no-repeat;
+			opacity: 0;
+			-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+			animation: mymove 5s infinite;
+			border: 5px solid antiquewhite;
+			z-index: 100;
+			margin-right: 10px;
+		}
+		  
+		  /* Chrome, Safari, Opera */
+		  @-webkit-keyframes mymove {
+			from {opacity: 0);}
+			to {opacity: .8;}
+		  
+		  }
+		  /* Standard syntax */
+		  @keyframes mymove {
+			 from {opacity: 0);}
+			to {opacity: .8;}
+		  }
+
+	
+/* Schedule Information with dropdown menu */
+
+/*List for scheduling information of art events*/
+
+.schedule{
+	display: block;	
+	position: absolute;
+	top: 775px;
+	right: 0;
+	width: 100%;
+	border: 5px black solid
+}
+
+ul.schedule	{
+	position: relative;
+	background-color: antiquewhite;
+	list-style: none;
+	width: 100%;
+	margin-top: 25px;
+}
+
+ul.schedule:hover > li{
+	display: block;
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+	  margin: 0;
+	  padding: 0;
+  }
+  
+  li.heading   {
+	  display: flex;
+	  align-items: center;
+	  width:100%;
+	  justify-content: center;
+	  color:#553344;
+	  font-family: 'Gudea', sans-serif;
+	  font-size:24pt;
+	  font-italic;
+	  margin-bottom: 15px;
+	  }
+  
+  .submenu {
+	  display: none;
+	  position: absolute;
+	  background-color: #552233;
+	  top: 30px;
+	  width: 100%;
+  }
+
+  submenu li:hover {
+	background-color: navy;
+	padding: 10px; 
+	padding-top: 0;
+  }
+	  
+  submenu li a{
+	color: antiquewhite;
+	font-size:20pt;
+	font-family: 'Gudea', sans-serif;
+	  font-weight: 600;
+	  font-style: italic;
+	text-decoration: none;
+	border-bottom: 1px solid white;
+}
+
+li.schedule {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+	top: 5px;
+	border: none;
+}
+  
+	.main-navigation {
+	  display: flex;
+	  background-color: antiquewhite;
+}
+	
+	.main-navigation li {
+	  flex: 1;
+	  height: auto;
+	  display: flex; 
+	  justify-content: center;
+	  align-items: center;
+	  position: relative;
+	  margin-top: 5px;
+	  margin-bottom: 5px;
+	  font-family: 'Gudea', sans-serif;
+	  font-weight: 600;
+	  font-style: italic;
+	  font-size: 18pt;
+	  font-style: italic;
+	  width: 100%;
+}
+
+
+	
+	.main-navigation > li:hover{
+	  background-color: black;
+	  padding: 5px;
+	  font-size: 24pt;  
+	  
+	}
+	
+	.main-navigation > li > a {
+	  text-decoration: none;
+	  font-family: 'Gudea', sans-serif;
+	  font-weight: 600;
+	  font-style: italic;
+	  font-size: 24pt;
+	  color: #553343;
+	  margin-bottom: 10px;
+	  margin-top: 0px;
+	  padding: 10px;
+	}
+	
+	.main-navigation li:hover a {
+	  color: antiquewhite;
+	  padding: 5px;
+
+	}
+	.main-navigation li:visited a {
+		color: palegoldenrod;
+	}
+	
+	a		{
+		text-decoration: none;
+	}
+
+	/* This is the form viewers can submit to receive emails*/
+
+	li.email	{
+		color: antiquewhite;
+		font-size:18pt;
+		padding-bottom: 10px;
+		padding-top: 20px;
+		padding-left: 20px;
+		justify-content: flex-start;
+		
+}
+
+	.form	{
+		display: block;	
+		position: absolute;
+		right: 0;
+		top: 1200px;
+		width: 100%;
+		border: 1px black solid;
+		background-color: #553343;
+	
+}
+	
+
+	p.form	{
+		display: flex;
+		align-items: center;
+		position: absolute;
+		top:1200px;
+		width:100%;
+		justify-content: center;
+		font-family: 'Gudea', sans-serif;
+		font-weight: 600;
+		font-style: italic;
+		color:antiquewhite;
+		font-size:24pt;
+		font-italic;
+		margin-bottom: 5px;
+		margin-top: 10px;
+}
+
+
+span.subm {
+	font-size:14pt;
+	color: antiquewhite;
+}  
+
+
+/* Footer with Contact Informtion */
+div.container-footer	{
+		display: flex;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		top: 1700px;
+		left: -125px;
+		height: 2.5rem;
+		font-size:  15pt;
+		font-style: italic; 
+		color: #553344;	
+  
+}
+	
+div.footer {
+	display: flex;
+	position: absolute;
+	flex-direction: row;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	top: 218%;
+	width: 100%;
+	height: 2.5rem;
+	font-size:  15pt;
+	font-style: italic; 
+	color: #553344;	
+  }
+  
+
+  @media (max-width: 600px){
+	
+.container-top	{
+	width: 100%;
+	min-width: 480px;
+	max-width: 600px;
+}
+  }
+	@media (max-width: 600px){	
+div h1 {
+	width: 100%;
+	min-width: 480px;
+	max-width: 600px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	font-size: 36px;
+	padding: 0;
+	padding-left: 15px;
+	margin-bottom: 0
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+}
+	}
+	@media (max-width: 600px){
+	nav{
+	width: 100%;
+	margin: 0 auto;
+	min-width: 480px;
+	max-width: 600px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	position: absolute;
+	top:  200px;
+	right: -400px;
+	
+}
+	}
+	@media (max-width: 600px){
+ul.nav {
+	position: absolute;
+	
+	right: -400px;
+	width: 100%;
+	padding: 0;
+}
+	}
+
+@media (max-width: 600px){
+li{
+	display; flex;
+	flex-direction: row;
+	align-content: flex-start;
+}	
+}
+
+@media (max-width: 600px){
+.intro	{
+	width: 90%;
+	min-width: 480px;
+	max-width: 600px;
+	display: flex;
+	position: absolute;
+	top: 150px;
+	left:0;
+	margin: 0 auto;
+	font-size: 55%;
+	padding: 0;
+	line-height: 20pt;
+	flex-direction:column;
+  }
+} 
+
+@media (max-width: 600px){
+.container {
+	min-width: 480px;
+	max-width: 600px;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width:100%;
+	padding:10px;
+	overflow:auto;
+	height: auto;
+	align-content: center;
+	align-items: center;
+	/* border: 5px darkcyan solid */	
+   }
+}
+
+  @media (max-width: 600px){
+ .exhibits	{
+	display: flexbox;
+	flex-direction: row;
+	align-items: center;
+	min-width: 480px;
+	max-width: 600px;
+	width: 100%;
+	position: absolute;
+	top: 2000px;
+	margin: 0 auto;
+	padding-left:10px;
+}
+  }
+
+  @media (max-width: 600px){
+	.container {
+		min-width: 480px;
+		max-width: 600px;
+		display: flex;
+		flex-direction:row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		width:100%;
+		overflow:auto;
+		height: auto;
+		align-content: center;
+		align-items: center;
+		/* border: 5px darkcyan solid */	
+	   }
+	}
+	
+  @media (max-width: 600px){
+  .painting	{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0;	
+  }
+}
+
+@media (max-width: 600px){
+	.schedule	{
+		position: absolute;
+		top: 800px;
+		height:auto;
+		width: 80%
+		}
+	}
+
+
+	@media (max-width: 600px){	
+	ul.schedule	{
+		position: relative;
+		width: 80%;
+		margin-top: 5px;
+	}
+}
+
+@media (max-width: 600px){
+		.form	{
+			position; absolute;
+			top: 1800px;
+			width: 80%;
+		}
+	}
+
+@media (max-width: 600px){ 
+	div.container-footer	{
+		visibility: invisible;
+		opacity: 0;	
+	}
+
+}
+ 
+@media (max-width: 768px){
+	div nav{
+	min-width: 768px;
+	max-width: 768px;
+		display: flex;
+	flex-direction: row;
+	}
+
+
+@media (max-width: 768px){
+	.card{
+		width: 100px;
+		height: 100px;
+
+	}
+}
+
+@media (max-width: 768px){
+.container	{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	}
+
+}
+@media (max-width: 768px){
+.schedule	{
+	position: absolute;
+	top: 900px;
+	}
+}
+
+@media (max-width: 768px){
+	.form	{
+		position: absolute;
+		top: 1200px;
+	}
+}
+
+@media (max-width: 768px){
+.footer	{
+		
+		visibility: invisible;
+	
+	}
+}
