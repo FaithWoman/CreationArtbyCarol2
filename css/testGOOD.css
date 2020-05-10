@@ -447,18 +447,18 @@ img.bio {
    }
    @media (max-width: 600px){
    .container { 
-	box-sizing: content-box;
-	float: center;
+	box-sizing: border-box;
+	/* float: center; */
 	display: flex;
 	flex-direction: column;
-	align-content: center;
-	justify-content: space-between;
+	align-content: flex-end;
+	justify-content: space-around;
 	/* flex-wrap: wrap; */
 	margin: 0 auto;
 	margin-left: 5px;
 	margin-right: 5px;
-	width:100%;
-	padding:15px;
+	width: 600px;
+	padding:5px;
 	padding-top:0px;
 	overflow:visible;
 	height: auto;
@@ -498,9 +498,9 @@ img.bio {
 		box-sizing: border-box;
 		display: flex;
 		align-items: flex-start;
-		justify-content: space-between;
+		justify-content: space-around;
 		padding: 5px;
-		margin-right: 5px;
+		margin-right: 25px;
 		margin-left: 10px;
 		width: 600px;
 		flex-direction:row;
