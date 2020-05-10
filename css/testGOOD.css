@@ -633,8 +633,10 @@ div.neath-multi {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
+	align-items: center;
 	position: absolute;
-	top: 235%;
+	top: 230%;
+	
 	background-color: antiquewhite;
 
 }
@@ -648,7 +650,7 @@ div.neath-multi {
 			top: 510%;
 			margin-left: 5px;
 			margin-right: 5px;
-			align-content: center;
+			align-items: center;
 			
 		}	
 }
@@ -656,7 +658,7 @@ div.neath-multi {
 /* Schedule Information with accordian menu */
 
 /*List for scheduling information of art events*/
-@media (max-width: 950px){
+@media (max-width: 780px){
 	position: absolute;
 	top: 520%;	
 }
@@ -669,7 +671,7 @@ align-items: flex-start;
 width: 100%;
 position: absolute;
 top: 0px;
-/* left: 15px; */
+left: 100px;
 
 }
 @media (max-width: 600px){
