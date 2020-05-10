@@ -465,6 +465,8 @@ img.bio {
 	position: absolute;
 	left: 0;
 	top: 980px;
+	min-width: 480px;
+	max-width: 600px;
 
    }
    } 
@@ -494,19 +496,21 @@ img.bio {
 	}
 @media (max-width: 600px){
 	.exhibits {	
-		/* float: right; */
+		float: left;
 		box-sizing: border-box;
 		display: flex;
 		align-items: flex-start;
 		justify-content: space-around;
 		padding: 5px;
 		margin-right: 25px;
-		margin-left: 10px;
-		width: 600px;
+		margin-left: 0px;
+		min-width: 480px;
+		max-width: 600px;
 		flex-direction:row;
 		flex-wrap: wrap;
 		position: absolute;
 		top: 1100px;
+		left: 0;
 
 	}}
 		
