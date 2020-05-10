@@ -656,7 +656,7 @@ div.neath-multi {
 /* Schedule Information with accordian menu */
 
 /*List for scheduling information of art events*/
-@media (max-width: 1000px){
+@media (max-width: 950px){
 	position: absolute;
 	top: 520%;	
 }
