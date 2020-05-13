@@ -657,7 +657,7 @@ div.neath-multi {
 			
 		}	
 }
-@media (max-width: 1920px){
+@media (max-width: 2000px){
 	div.neath-multi {
 		width: 100%;
 		height: auto;
@@ -667,7 +667,7 @@ div.neath-multi {
 		top: 1000px;
 		margin-left: 5px;
 		margin-right: 5px;
-		align-items: center;
+		align-items: flex-start;
 		
 	}	
 }
