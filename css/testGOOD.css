@@ -639,7 +639,7 @@ div.neath-multi {
 	flex-wrap: wrap;
 	align-items: center;
 	position: relative;
-	top: 230%;
+	top: 100%;
 	
 	background-color: antiquewhite;
 
@@ -784,7 +784,7 @@ span.subm {
 /* Bottom of Page with Contact Informtion */
 .footer	{
 		display: block;
-		text-align: center;
+		text-align: left;
 		width: 100%;
 		position: sticky;
 		bottom:0;
@@ -795,7 +795,7 @@ span.subm {
 		font-style: italic; 
 		color: #553344;	
 		background-color: antiquewhite;
-		margin-top: 25px;
+		margin-top: 10px;
 	
 }
 
