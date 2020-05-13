@@ -451,14 +451,14 @@ img.bio {
 	/* float: center; */
 	display: flex;
 	flex-direction: column;
-	align-content: flex-end;
+	align-content: flex-start;
 	justify-content: space-around;
 	/* flex-wrap: wrap; */
 	margin: 0 auto;
-	margin-left: 5px;
-	margin-right: 5px;
+	/* margin-left: 5px;
+	margin-right: 5px; */
 	width: 600px;
-	padding:5px;
+	/* padding:5px; */
 	padding-top:0px;
 	overflow:visible;
 	height: auto;
@@ -476,7 +476,7 @@ img.bio {
 	   box-sizing: border-box;
 	   display: flex;
 	   align-items: center;
-	   justify-items: space-between;
+	   /* justify-items: space-between; */
 	   padding: 0px;
 	   margin-right: 10px;
 	   flex-direction: column;
@@ -499,10 +499,10 @@ img.bio {
 		float: left;
 		box-sizing: border-box;
 		display: flex;
-		align-items: flex-start;
-		justify-content: space-around;
+		/* align-content: flex-start;
+		justify-content: flex-start; */
 		padding: 5px;
-		margin-right: 25px;
+		margin-right: 0px;
 		margin-left: 0px;
 		min-width: 480px;
 		max-width: 600px;
@@ -559,7 +559,7 @@ img.bio {
 		font-style: italic;
 		color:antiquewhite;
 		font-size:11pt;
-		margin-bottom: 15px;
+		margin-bottom: 5px;
 		}
 	}	
 
@@ -576,13 +576,13 @@ img.bio {
 /*here are the mechanics of the back and forth painting displays*/
 @media (max-width: 600px){
 	.card {
-		width: 125px;
-		height: 125px;
+		width: 100%;
+		height: 150px;
 		position: relative;
-		right: 10px;
-		left: 10px;
+		/* right: 10px;
+		left: 10px; */
 		display: inline-flex;
-		margin: 15px;
+		margin: 5px;
 	}
 	}
 img.one {
@@ -593,8 +593,8 @@ img.one {
 
 @media (max-width: 600px){
 	img.one {
-	width: 125px;
-	height: 125px;
+	width: 100%;
+	height: 150px;
 	}
 }
 .card .img-top {
@@ -612,8 +612,8 @@ img.one {
 		position: absolute; 
 		top: 0;
 		left: 0;
-		width: 125px;
-		height: 125px;
+		width: 100%;
+		height: 150px;
 		
 		z-index: 99;
 	}
