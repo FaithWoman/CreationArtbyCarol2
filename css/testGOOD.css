@@ -456,6 +456,7 @@ img.bio {
 	justify-content: space-around;
 	/* flex-wrap: wrap; */
 	margin: 0 auto;
+	margin-top: 25px;
 	/* margin-left: 5px;
 	margin-right: 5px; */
 	width: 600px;
@@ -505,6 +506,7 @@ img.bio {
 		padding: 5px;
 		margin-right: 0px;
 		margin-left: 0px;
+		/* marign-top: 25px; */
 		min-width: 480px;
 		max-width: 600px;
 		flex-direction:row;
