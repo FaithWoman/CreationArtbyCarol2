@@ -373,6 +373,7 @@ img.bio {
 	display: block;
 	height: 421px;
 	position: sticky;
+	top: 500px;
 	
 }
 }
@@ -464,7 +465,7 @@ img.bio {
 	height: auto;
 	position: absolute;
 	left: 0;
-	top: 980px;
+	top: 1020px;
 	min-width: 480px;
 	max-width: 600px;
 
@@ -509,7 +510,7 @@ img.bio {
 		flex-direction:row;
 		flex-wrap: wrap;
 		position: absolute;
-		top: 1100px;
+		top: 1020px;
 		left: 0;
 
 	}}
@@ -647,7 +648,7 @@ div.neath-multi {
 			display: flex;
 			flex-direction: column;
 			position: absolute;
-			top: 510%;
+			top: 2800px;
 			margin-left: 5px;
 			margin-right: 5px;
 			align-items: center;
@@ -660,7 +661,7 @@ div.neath-multi {
 /*List for scheduling information of art events*/
 @media (max-width: 780px){
 	position: absolute;
-	top: 520%;	
+	top: 2800px;	
 }
 }
 .schedule  {
