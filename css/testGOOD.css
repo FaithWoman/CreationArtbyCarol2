@@ -660,8 +660,8 @@ div.neath-multi {
 
 /*List for scheduling information of art events*/
 @media (max-width: 780px){
-	position: absolute;
-	top: 2800px;	
+	/* position: sticky;
+	top: 2800px;	 */
 }
 }
 .schedule  {
@@ -787,11 +787,11 @@ span.subm {
 	
 	.footer {
 	display: block;
-	left: 5px;
-	font-size: 10px;
-	width: 	90%;
+	font-size: 10pt;
+	width: 	110%;
 	position: absolute; 
 	top: 650px;
+	left: 0;
 	text-align: left;
 	}
 } 
@@ -803,7 +803,7 @@ span.subm {
 }
 @media (max-width: 600px){
 .returnlink {
-	text-align: right;
+	/* text-align: right; */
 	font-size: 12pt;
 	margin-right: 0;
 }
