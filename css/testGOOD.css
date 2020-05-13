@@ -186,6 +186,7 @@ div.multi {
 	width: 100%;
 	height: 2000px;
 	background-color: antiquewhite;
+	height: 2500px;
 }
 
 @media (max-width: 600px){
@@ -450,18 +451,13 @@ img.bio {
    @media (max-width: 600px){
    .container { 
 	box-sizing: border-box;
-	/* float: center; */
 	display: flex;
 	flex-direction: column;
-	align-content: flex-start;
+	align-content: flex-end;
 	justify-content: space-around;
-	/* flex-wrap: wrap; */
 	margin: 0 auto;
-	margin-top: 25px;
-	/* margin-left: 5px;
-	margin-right: 5px; */
+	margin-top: 15px;
 	width: 600px;
-	/* padding:5px; */
 	padding-top:0px;
 	overflow:visible;
 	height: auto;
@@ -480,8 +476,9 @@ img.bio {
 	   display: flex;
 	   align-items: center;
 	   /* justify-items: space-between; */
-	   padding: 0px;
-	   margin-right: 10px;
+	   padding: 20px;
+	   margin-right: 25px;
+	 
 	   flex-direction: column;
 	   text-align: center;
 	   margin: 0 auto;
@@ -500,11 +497,13 @@ img.bio {
 @media (max-width: 600px){
 	.exhibits {	
 		float: left;
-		box-sizing: border-box;
+		box-sizing: content-box;
 		display: flex;
-		/* align-content: flex-start;
-		justify-content: flex-start; */
-		padding: 5px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		/* align-content: flex-start;*/
+		justify-content: space-around; 
+		/* padding: 20px; */
 		margin-right: 0px;
 		margin-left: 0px;
 		/* marign-top: 25px; */
@@ -542,7 +541,7 @@ img.bio {
 	width:100%;
 	height: 40px;
 	padding:0;
-	text-align: center;
+	text-align: center; 
 	font-family: 'Gudea', sans-serif;
 	font-weight: 600;
 	font-style: italic;
@@ -550,6 +549,7 @@ img.bio {
 	font-size:14pt;
 	margin-bottom: 25px;
 	}
+
 	@media (max-width: 600px){
 	.galleryn   {
 		display: inline-block;
@@ -580,13 +580,14 @@ img.bio {
 /*here are the mechanics of the back and forth painting displays*/
 @media (max-width: 600px){
 	.card {
-		width: 100%;
+		width: 200px;
 		height: 150px;
 		position: relative;
 		/* right: 10px;
 		left: 10px; */
 		display: inline-flex;
-		margin: 5px;
+		padding: 20px;
+		padding-left: 0;
 	}
 	}
 img.one {
@@ -597,8 +598,10 @@ img.one {
 
 @media (max-width: 600px){
 	img.one {
-	width: 100%;
+	width: 200px;
 	height: 150px;
+	padding: 20px;
+	padding-left: 0;
 	}
 }
 .card .img-top {
@@ -616,8 +619,10 @@ img.one {
 		position: absolute; 
 		top: 0;
 		left: 0;
-		width: 100%;
+		width: 200px;
 		height: 150px;
+		padding: 20px;
+		padding-left: 0
 		
 		z-index: 99;
 	}
@@ -633,13 +638,14 @@ display: inline;
 /* This should hold the schedule, the form, the footer */
 div.neath-multi {
 	width: 100%;
-	height: 650px;
+	height: auto;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
-	align-items: center;
-	position: relative;
-	top: 100%;
+	/* flex-wrap: wrap; */
+	align-items: flex-start;
+	position: absolute;
+	top: 230%;
+	right: 20%;
 	
 	background-color: antiquewhite;
 
@@ -651,42 +657,21 @@ div.neath-multi {
 			display: flex;
 			flex-direction: column;
 			position: absolute;
-			top: 260%;
+			top: 1000px;
+			left:0;
 			margin-left: 5px;
 			margin-right: 5px;
 			align-items: center;
 			
 		}	
 }
-/* @media (max-width: 2000px){
-	div.neath-multi {
-		width: 100%;
-		height: auto;
-		display: flex;
-		flex-direction: column;
-		position: absolute;
-		top: 1000px;
-		margin-left: 5px;
-		margin-right: 5px;
-		align-items: flex-start;
-		
-	}	
-} */
-/* Schedule Information with accordian menu */
-
-/*List for scheduling information of art events*/
-/* @media (max-width: 780px){ */
-	/* position: sticky;
-	top: 2800px;	 */
-/* }
-} */
 .schedule  {
 display: flex;
 flex-direction: column;
 align-content: flex-start;
 align-items: flex-start;
 width: 100%;
-position: relative;
+position: absolute;
 top: 0;
 left: 100px;
 
@@ -695,9 +680,9 @@ left: 100px;
 .schedule  {
 	display: flex;
 	flex-direction: column;
-	align-content: center;
-	align-items: center;
-	width: 50%;
+	align-content: flex-start;
+	align-items: flex-start;
+	width: 100%;
 	position: absolute;
 	top: 2000px;
 	margin-left: 0;
@@ -724,7 +709,7 @@ left: 100px;
 	line-height: 50px;
 	padding-top: 0;
 	padding-left: 10px;
-	margin-left: 25px;
+	margin-left: 0px;
 }
 }
 	a		{
@@ -740,7 +725,7 @@ left: 100px;
 		font-size:18pt;
 		font-style: italic;
 		position: absolute; 
-		top: 20px;
+		top: 0;
 		right: 5px;
 		width: 48%;
 	}
@@ -803,14 +788,14 @@ span.subm {
  @media (max-width: 600px){
 	
 	.footer {
-	display: block;
+	/* display: block; */
 	font-size: 10pt;
-	width: 	110%;
+	/* width: 	600px;
 	position: sticky; 
 	bottom: 0;
-	top: 650px;
+	top: 2000px;
 	left: 0;
-	text-align: left;
+	text-align: left; */
 	}
 } 
 .returnlink {
