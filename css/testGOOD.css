@@ -657,7 +657,7 @@ div.neath-multi {
 			
 		}	
 }
-@media (max-width: 1920){
+@media (max-width: 1920px){
 	div.neath-multi {
 		width: 100%;
 		height: auto;
@@ -674,11 +674,11 @@ div.neath-multi {
 /* Schedule Information with accordian menu */
 
 /*List for scheduling information of art events*/
-@media (max-width: 780px){
+/* @media (max-width: 780px){ */
 	/* position: sticky;
 	top: 2800px;	 */
-}
-}
+/* }
+} */
 .schedule  {
 display: flex;
 flex-direction: column;
