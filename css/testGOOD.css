@@ -11,7 +11,8 @@
 		opacity: 8;
 		margin: 0 auto;
 		width: 100%;
-		z-index: 99;		
+		z-index: 99;
+			
 }
 	@media (max-width: 600px){	
 	body	{
@@ -637,7 +638,7 @@ div.neath-multi {
 	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: center;
-	position: absolute;
+	position: relative;
 	top: 230%;
 	
 	background-color: antiquewhite;
@@ -650,14 +651,14 @@ div.neath-multi {
 			display: flex;
 			flex-direction: column;
 			position: absolute;
-			top: 2800px;
+			top: 260%;
 			margin-left: 5px;
 			margin-right: 5px;
 			align-items: center;
 			
 		}	
 }
-@media (max-width: 2000px){
+/* @media (max-width: 2000px){
 	div.neath-multi {
 		width: 100%;
 		height: auto;
@@ -670,7 +671,7 @@ div.neath-multi {
 		align-items: flex-start;
 		
 	}	
-}
+} */
 /* Schedule Information with accordian menu */
 
 /*List for scheduling information of art events*/
@@ -685,8 +686,8 @@ flex-direction: column;
 align-content: flex-start;
 align-items: flex-start;
 width: 100%;
-position: absolute;
-top: 0px;
+position: relative;
+top: 0;
 left: 100px;
 
 }
@@ -698,25 +699,13 @@ left: 100px;
 	align-items: center;
 	width: 50%;
 	position: absolute;
-	top: 350px;
+	top: 2000px;
 	margin-left: 0;
 	margin-right: 0;
 	
 }
 }	
-@media (max-width: 1920px){
-	.schedule  {
-		display: flex;
-		flex-direction: column;
-		align-content: center;
-		align-items: center;
-		width: 50%;
-		position: absolute;
-		top: 0px;
-		margin-left: 0;
-		margin-right: 0;
-}
-}
+
 
 .sched-heading{		
 	font-size: 14pt;
@@ -766,7 +755,7 @@ left: 100px;
 		top: 20px;
 		right: 5px;
 		width: 24%;
-	}
+	}}
 
 	.form	{
 		display: inline-block;	
@@ -802,7 +791,7 @@ span.subm {
 		/* left: 0px; */
 		padding: 10px;
 		height: 40px;
-		font-size:  25pt;
+		font-size:  15pt;
 		font-style: italic; 
 		color: #553344;	
 		background-color: antiquewhite;
@@ -838,7 +827,7 @@ span.subm {
 }
 
 	 
-	@media (max-width: 768px){
+	/* @media (max-width: 768px){
 	div nav{
 	min-width: 768px;
 	max-width: 768px;
@@ -849,7 +838,7 @@ span.subm {
 		margin-left: 25px;
 	}
 	
-		
+}	
 	
 		
 
@@ -899,4 +888,4 @@ span.subm {
 		visibility: invisible;
 	
 	}
-}
+} */
