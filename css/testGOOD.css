@@ -785,8 +785,8 @@ span.subm {
 .footer	{
 		display: block;
 		text-align: center;
-		width: 80%;
-		position: absolute;
+		width: 100%;
+		position: sticky;
 		bottom:0;
 		/* left: 0px; */
 		padding: 10px;
@@ -806,7 +806,8 @@ span.subm {
 	display: block;
 	font-size: 10pt;
 	width: 	110%;
-	position: absolute; 
+	position: sticky; 
+	bottom: 0;
 	top: 650px;
 	left: 0;
 	text-align: left;
