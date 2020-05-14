@@ -646,7 +646,6 @@ div.neath-multi {
 	position: absolute;
 	top: 230%;
 	right: 20%;
-	
 	background-color: antiquewhite;
 
 }
@@ -661,9 +660,25 @@ div.neath-multi {
 			left:0;
 			margin-left: 5px;
 			margin-right: 5px;
-			align-items: center;
+			align-items: flex-start;
 			
 		}	
+}
+
+@media (min-width: 1900px){
+	div.neath-multi {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 100%;
+		left:0;
+		margin-left: 5px;
+		margin-right: 5px;
+		align-items: flex-start;
+		
+	}	
 }
 .schedule  {
 display: flex;
