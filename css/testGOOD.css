@@ -682,7 +682,7 @@ div.neath-multi {
 		display: flex;
 		flex-direction: column;
 		position: absolute;
-		top: 250%;
+		top: 100%;
 		left:0;
 		margin-left: 5px;
 		margin-right: 5px;
@@ -780,8 +780,8 @@ left: 100px;
 	}}
 	@media (min-width: 1800px){
 		.email	{
-			position: absolute; 
-		top: 80%;
+		position: absolute; 
+		top: 90%;
 
 		}
 	}
