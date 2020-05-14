@@ -822,7 +822,7 @@ div.neath-multi {
 		display: flex;
 		flex-direction: column;
 		position: absolute;
-		top: 2000px;
+		top: 150%;
 		left:0;
 		margin-left: 5px;
 		margin-right: 5px;
@@ -929,7 +929,7 @@ left: 100px;
 		font-size:18pt;
 		font-style: italic;
 		position: absolute; 
-		top: 275px;
+		top: 325px;
 		left: 5px;
 		width: 500px;
 	}}
@@ -1016,7 +1016,7 @@ span.subm {
 	width: 	300%;
 	position: absolute;
 	bottom: 0;
-	top: 2600px;
+	top: 2700px;
 	left: 0;
 	/* text-align: center;  */
 	/* border: solid 5px black; */
