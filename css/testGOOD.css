@@ -687,7 +687,7 @@ div.neath-multi {
 		margin-left: 5px;
 		margin-right: 5px;
 		align-content: flex-start;	
-		
+		border: solid green 5px;
 	}	
 }
 .schedule  {
@@ -844,14 +844,13 @@ span.subm {
 	.footer {
 	display: block;
 	font-size: 10pt;
-	width: 	300%;
+	width: 	200%;
 	position: absolute;
 	bottom: 0;
 	top: 2600px;
 	left: 0;
 	/* text-align: center;  */
 	border: solid 5px black;
-	width: 600px;
 	margin-left: 0;
 	margin-right: 0;
 	}
@@ -865,8 +864,7 @@ span.subm {
 @media (max-width: 600px){
 .returnlink {
 	text-align: center; 
-	font-size: 10pt;
-	font-weight: 800;
+	font-size: 12pt;
 	margin-right: 0;
 	border: solid 5px greenyellow
 }
