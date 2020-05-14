@@ -677,12 +677,12 @@ div.neath-multi {
 
 @media (min-width: 1800px){
 	div.neath-multi {
-		width: 50%;
+		width: 70%;
 		/* height: 600px; */
 		display: flex;
 		flex-direction: column;
 		position: absolute;
-		top: 180%;
+		top: 160%;
 		left:0;
 		margin-left: 5px;
 		margin-right: 5px;
