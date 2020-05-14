@@ -687,6 +687,7 @@ div.neath-multi {
 		margin-left: 5px;
 		margin-right: 5px;
 		align-content: flex-start;	
+		border: solid black 5px;
 	}	
 }
 .schedule  {
@@ -718,10 +719,10 @@ left: 100px;
 @media (min-width: 1800px){
 	.schedule  {
 	position: absolute;
-	top: 100%;
+	top: 0;
 	width: 100%
 	left:0;
-	/* Border: solid 5px black; */
+	Border: solid 5px black;
 }
 }
 
