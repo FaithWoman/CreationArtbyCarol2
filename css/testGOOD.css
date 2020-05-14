@@ -661,7 +661,7 @@ div.neath-multi {
 @media (max-width: 600px){
 		div.neath-multi {
 			width: 50%;
-			height: 600px;
+			height: 500px;
 			display: flex;
 			flex-direction: column;
 			position: absolute;
@@ -757,10 +757,12 @@ left: 100px;
 		color: antiquewhite;
 		font-size:18pt;
 		font-style: italic;
+		justify-content: center;
+		align-content: center;
 		position: absolute; 
-		top: 0;
-		right: 5px;
-		width: 48%;
+		top: 90%;
+		left: 360px;
+		/* width: 48%; */
 	}
 	@media (max-width: 600px){
 	.email	{
@@ -770,8 +772,8 @@ left: 100px;
 		font-size:18pt;
 		font-style: italic;
 		position: absolute; 
-		top: 20px;
-		right: 5px;
+		top: 350px;
+		left: 5px;
 		width: 500px;
 	}}
 
@@ -811,7 +813,8 @@ span.subm {
 		display: block;
 		text-align: center;
 		width: 100%;
-		position: sticky;
+		position: absolute;
+		top: 600px;
 		bottom:0;
 		/* left: 0px; */
 		padding: 10px;
@@ -831,11 +834,11 @@ span.subm {
 	display: block;
 	font-size: 10pt;
 	width: 	100%;
-	position: sticky;
+	position: absolute;
 	bottom: 0;
-	top: 2000px;
+	top: 2600px;
 	left: 0;
-	text-align: left; 
+	text-align: center; 
 	/* border: solid 5px black; */
 	margin-left: 0;
 	margin-right: 0;
