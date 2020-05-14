@@ -22,6 +22,15 @@
 	}
 	}
 
+	@media (max-width: 768px){	
+		body	{
+		background-color: antiquewhite;
+		box-sizing: content-box;
+		height: auto;
+		width: 700px;		
+		}
+		}
+
 	@media (min-width: 1800px){	
 		body	{
 		background-color: antiquewhite;
@@ -54,6 +63,13 @@
 	min-width: 480px;
 	max-width: 600px;
 	height: 130px;
+	}
+  }
+
+  @media (max-width: 768px){
+	.container-top	{
+	width: 100%;
+	height: 150px;
 	}
   }
 	
@@ -255,6 +271,21 @@ div.multi {
 			line-height: 20pt;
 		  }
 		}
+
+		
+	@media (max-width: 768px){
+		.intro	{
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			position: absolute;
+			top: 28%;
+			left:3px;
+			margin: 0 auto;
+			padding: 0;
+			line-height: 20pt;
+		  }
+		}
 		p	{
 			/* padding-bottom: 5px;  */
 			margin-left: 5px;
@@ -389,6 +420,15 @@ img.bio {
 	
 }
 }
+@media (max-width: 768px){
+	.recentptg	{
+		width: 100%;
+		display: block;
+		height: 421px;
+		position: sticky;
+		top: 500px;	
+	}
+	}
 
 .recentptgcontainer  {
 	Width: 600px;
@@ -408,6 +448,16 @@ img.bio {
 	box-shadow: 5px 5px 5px 3px maroon; 
 }
 }
+
+@media (max-width: 768px){
+	.recentptgcontainer  {
+		Width: 600px;
+		height: 421px;
+		margin-left: 8px;
+		margin-right: 8px;
+		box-shadow: 5px 5px 5px 3px maroon; 
+	}
+	}
 
 /* These are the recent works picture captions */
 .recentn {	
@@ -479,7 +529,27 @@ img.bio {
 
    }
    } 
-
+   @media (max-width: 768px){
+	.container { 
+	 box-sizing: border-box;
+	 display: flex;
+	 flex-direction: column;
+	 align-content: flex-end;
+	 justify-content: space-around;
+	 margin: 0 auto;
+	 margin-top: 15px;
+	 width: 100%;
+	 padding-top:0px;
+	 overflow:visible;
+	 height: auto;
+	 position: absolute;
+	 left: 0;
+	 top: 1850px;
+	 
+ 
+	}
+	} 
+ 
 /* This is the outside container for the gallery toggle links */
 	.exhibits {
 	   box-sizing: border-box;
@@ -524,7 +594,28 @@ img.bio {
 		width: 425px;
 
 	}}
-		
+
+	@media (max-width: 768px){
+	.exhibits {	
+		float: left;
+		box-sizing: content-box;
+		display: flex;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		align-content: flex-start;
+		justify-content: center; 
+		/* padding: 20px; */
+		margin-right: 0px;
+		margin-left: 0px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		position: absolute;
+		top: 100px;
+		left: 0;
+		width: 700px;
+
+	}}
+	
 /* This is the main heading for the five exhibits image links */
 		p.heading   {
 		display: flex;
@@ -598,6 +689,19 @@ img.bio {
 		padding-left: 0;
 	}
 	}
+	@media (max-width: 768px){
+		.card {
+			width: 200px;
+			height: 200px;
+			position: relative;
+			left: 0;
+			/* right: 10px;
+			left: 10px; */
+			display: inline-flex;
+			padding: 20px;
+			padding-left: 0;
+		}
+		}
 img.one {
 	width: 225px;
 	height: 225px;
@@ -610,7 +714,17 @@ img.one {
 	height: 150px;
 	padding: 20px;
 	padding-left: 0;
-	paddint-right: 20px;
+	padding-right: 20px;
+	}
+}
+
+@media (max-width: 768px){
+	img.one {
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+	padding-left: 0;
+	padding-right: 20px;
 	}
 }
 .card .img-top {
@@ -636,6 +750,22 @@ img.one {
 		z-index: 99;
 	}
 	}
+
+	@media (max-width: 768px){
+		.card .img-top {
+			display: none;
+			position: absolute; 
+			top: 0;
+			left: 0;
+			width: 200px;
+			height: 250px;
+			padding: 20px;
+			padding-left: 0
+			
+			z-index: 99;
+		}
+		}
+	
 
 .card:hover .img-top {
 display: inline;
@@ -673,6 +803,17 @@ div.neath-multi {
 			/* Border: solid 5px black; */
 			
 		}	
+}
+
+@media (max-width: 768px){
+	div.neath-multi {
+		position: absolute;
+		top: 255%;
+		left:0;
+		align-content: flex-start;
+		/* Border: solid 5px black; */
+		
+	}	
 }
 
 @media (min-width: 1800px){
@@ -715,7 +856,23 @@ left: 100px;
 	margin-right: 0;
 	/* Border: solid 5px black; */
 }
-}	
+}
+@media (max-width: 768px){
+	.schedule  {
+		display: flex;
+		flex-direction: column;
+		align-content: flex-start;
+		align-items: flex-start;
+		width: 475px;
+		position: absolute;
+		top: 0;
+		left:5%;
+		margin-left: 5px;
+		margin-right: 0;
+		/* Border: solid 5px black; */
+	}
+	}	
+	
 @media (min-width: 1800px){
 	.schedule  {
 	position: absolute;
@@ -777,6 +934,19 @@ left: 100px;
 		left: 5px;
 		width: 500px;
 	}}
+
+	@media (max-width: 768px){
+		.email	{
+			display: flex;
+			flex-direction: column;
+			color: antiquewhite;
+			font-size:18pt;
+			font-style: italic;
+			position: absolute; 
+			top: 250px;
+			left: 5px;
+			width: 700px;
+		}}
 	@media (min-width: 1800px){
 		.email	{
 		position: absolute; 
