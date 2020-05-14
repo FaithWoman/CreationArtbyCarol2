@@ -682,12 +682,12 @@ div.neath-multi {
 		display: flex;
 		flex-direction: column;
 		position: absolute;
-		top: 150%;
+		top: 148%;
 		left:0;
 		margin-left: 5px;
 		margin-right: 5px;
 		align-content: flex-start;	
-		border: solid maroon 5px;
+		border: solid green 5px;
 	}	
 }
 .schedule  {
@@ -723,7 +723,6 @@ left: 100px;
 	width: 100%
 	left:0;
 
-	Border: solid 5px black;
 }
 }
 
@@ -818,6 +817,7 @@ span.subm {
 	display: block;
 	text-align: center;
 	width: 100%;
+	border: solid brightpink 5px;
 }
 
 .footer	{
@@ -844,13 +844,13 @@ span.subm {
 	.footer {
 	display: block;
 	font-size: 10pt;
-	width: 	100%;
+	width: 	200%;
 	position: absolute;
 	bottom: 0;
 	top: 2600px;
 	left: 0;
-	text-align: center; 
-	/* border: solid 5px black; */
+	/* text-align: center;  */
+	border: solid 5px black;
 	margin-left: 0;
 	margin-right: 0;
 	}
@@ -866,6 +866,7 @@ span.subm {
 	text-align: center; 
 	font-size: 12pt;
 	margin-right: 0;
+	border: solid 5px greenyellow
 }
 }
 
