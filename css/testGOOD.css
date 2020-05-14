@@ -673,12 +673,12 @@ div.neath-multi {
 		display: flex;
 		flex-direction: column;
 		position: absolute;
-		top: 2000px;
+		top: 2200px;
 		left:0;
 		margin-left: 5px;
 		margin-right: 5px;
 		align-content: flex-start;
-		/* border: solid black 5px; */
+		border: solid black 5px;
 		
 	}	
 }
@@ -708,7 +708,13 @@ left: 100px;
 	/* Border: solid 5px black; */
 }
 }	
-
+@media (min-width: 1800px){
+	.schedule  {
+	position: absolute;
+	top: 2200px;
+	left:0;
+}
+}
 
 .sched-heading{		
 	font-size: 14pt;
