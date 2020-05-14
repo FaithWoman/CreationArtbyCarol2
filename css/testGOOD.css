@@ -776,7 +776,16 @@ left: 100px;
 		left: 5px;
 		width: 500px;
 	}}
+	@media (min-width: 1800px){
+		.email	{
+			position: absolute; 
+		top: 70%;
 
+		}
+	}
+
+
+	
 	.form	{
 		display: inline-block;	
 		position: absolute;
