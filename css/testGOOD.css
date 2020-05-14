@@ -17,8 +17,8 @@
 	@media (max-width: 600px){	
 	body	{
 	background-color: antiquewhite;
-	box-sizing: border-box;
-	width: 600px;		
+	box-sizing: content-box;
+	width: 500px;		
 	}
 	}
 /*This holds the header info*/
@@ -651,8 +651,8 @@ div.neath-multi {
 }
 @media (max-width: 600px){
 		div.neath-multi {
-			width: 575px;
-			height: auto;
+			width: 50%;
+			height: 600px;
 			display: flex;
 			flex-direction: column;
 			position: absolute;
@@ -661,6 +661,7 @@ div.neath-multi {
 			/* margin-left: 5px;
 			margin-right: 5px; */
 			align-content: flex-start;
+			/* Border: solid 5px black; */
 			
 		}	
 }
@@ -668,7 +669,7 @@ div.neath-multi {
 @media (min-width: 1800px){
 	div.neath-multi {
 		width: 100%;
-		height: auto;
+		height: 600px;
 		display: flex;
 		flex-direction: column;
 		position: absolute;
@@ -676,7 +677,8 @@ div.neath-multi {
 		left:0;
 		margin-left: 5px;
 		margin-right: 5px;
-		align-items: flex-start;
+		align-content: flex-start;
+		/* border: solid black 5px; */
 		
 	}	
 }
@@ -697,12 +699,13 @@ left: 100px;
 	flex-direction: column;
 	align-content: flex-start;
 	align-items: flex-start;
-	width: 600px;
+	width: 475px;
 	position: absolute;
-	top: 2000px;
+	top: 1900px;
+	left:0;
 	margin-left: 0;
 	margin-right: 0;
-	
+	/* Border: solid 5px black; */
 }
 }	
 
@@ -754,7 +757,7 @@ left: 100px;
 		position: absolute; 
 		top: 20px;
 		right: 5px;
-		width: 600px;
+		width: 500px;
 	}}
 
 	.form	{
@@ -762,7 +765,7 @@ left: 100px;
 		position: absolute;
 		margin-right: 25%;
 		margin-left: 25%;
-		top: 20px;
+		top: 10px;
 		right: 0;
 		width: 50%;
 		background-color: #553343;
@@ -782,11 +785,18 @@ span.subm {
 
 
 /* Bottom of Page with Contact Informtion */
+
+.footer-container {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
 .footer	{
 		display: block;
-		text-align: left;
+		text-align: center;
 		width: 100%;
-		position: sticky;
+		position: sticky;2
 		bottom:0;
 		/* left: 0px; */
 		padding: 10px;
@@ -803,14 +813,17 @@ span.subm {
  @media (max-width: 600px){
 	
 	.footer {
-	/* display: block; */
+	display: block;
 	font-size: 10pt;
-	/* width: 	600px;
-	position: sticky; 
+	width: 	100%;
+	position: sticky;
 	bottom: 0;
 	top: 2000px;
 	left: 0;
-	text-align: left; */
+	text-align: left; 
+	/* border: solid 5px black; */
+	margin-left: 0;
+	margin-right: 0;
 	}
 } 
 .returnlink {
@@ -821,7 +834,7 @@ span.subm {
 }
 @media (max-width: 600px){
 .returnlink {
-	/* text-align: right; */
+	text-align: center; 
 	font-size: 12pt;
 	margin-right: 0;
 }
