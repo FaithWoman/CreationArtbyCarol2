@@ -21,6 +21,15 @@
 	width: 500px;		
 	}
 	}
+
+	@media (min-width: 1800px){	
+		body	{
+		background-color: antiquewhite;
+		box-sizing: content-box;
+		height: 2000px;
+				
+		}
+		}
 /*This holds the header info*/
 .container-top {
 	display: flex;
