@@ -678,7 +678,7 @@ div.neath-multi {
 @media (min-width: 1800px){
 	div.neath-multi {
 		width: 70%;
-		/* height: 600px; */
+		height: auto;
 		display: flex;
 		flex-direction: column;
 		position: absolute;
@@ -720,7 +720,7 @@ left: 100px;
 @media (min-width: 1800px){
 	.schedule  {
 	position: absolute;
-	top: 180%;
+	top: 160%;
 	width: 100%
 	left:0;
 	/* Border: solid 5px black; */
