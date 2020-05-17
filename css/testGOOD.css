@@ -22,7 +22,7 @@
 	}
 	}
 
-	@media (max-width: 768px){	
+	@media (min-width: 768px) and (max-width: 959px){	
 		body	{
 		background-color: antiquewhite;
 		box-sizing: content-box;
@@ -62,7 +62,7 @@
 	width: 100%;
 	min-width: 480px;
 	max-width: 600px;
-	height: 130px;
+	height: 125px;
 	}
   }
 
@@ -273,7 +273,7 @@ div.multi {
 		}
 
 		
-	@media (max-width: 768px){
+		@media (min-width: 768px) and (max-width: 959px){
 		.intro	{
 			width: 100%;
 			display: flex;
@@ -420,7 +420,7 @@ img.bio {
 	
 }
 }
-/* @media (max-width: 768px){
+@media (min-width: 768px) and (max-width: 959px){
 	.recentptg	{
 		width: 100%;
 		display: block;
@@ -428,7 +428,7 @@ img.bio {
 		position: sticky;
 		top: 500px;	
 	}
-	} */
+	} 
 
 .recentptgcontainer  {
 	Width: 600px;
@@ -449,7 +449,7 @@ img.bio {
 }
 }
 
-/* @media (max-width: 768px){
+@media (min-width: 768px) and (max-width: 959px){
 	.recentptgcontainer  {
 		Width: 600px;
 		height: 421px;
@@ -457,7 +457,7 @@ img.bio {
 		margin-right: 8px;
 		box-shadow: 5px 5px 5px 3px maroon; 
 	}
-	} */
+	}
 
 /* These are the recent works picture captions */
 .recentn {	
@@ -529,7 +529,7 @@ img.bio {
 
    }
    } 
-   /* @media (max-width: 768px){
+   @media (min-width: 768px) and (max-width: 959px){
 	.container { 
 	 box-sizing: border-box;
 	 display: flex;
@@ -549,7 +549,7 @@ img.bio {
  
 	}
 	} 
-  */
+
 /* This is the outside container for the gallery toggle links */
 	.exhibits {
 	   box-sizing: border-box;
@@ -595,7 +595,7 @@ img.bio {
 
 	}}
 
-	/* @media (max-width: 768px){
+	@media (min-width: 768px) and (max-width: 959px){
 	.exhibits {	
 		float: left;
 		box-sizing: content-box;
@@ -604,7 +604,7 @@ img.bio {
 		margin-bottom: 10px;
 		align-content: flex-start;
 		justify-content: center; 
-		/* padding: 20px; 
+		padding: 20px; 
 		margin-right: 0px;
 		margin-left: 0px;
 		flex-direction: row;
@@ -615,7 +615,7 @@ img.bio {
 		width: 700px;
 
 	}}
-	 */
+	 
 /* This is the main heading for the five exhibits image links */
 		p.heading   {
 		display: flex;
@@ -689,19 +689,19 @@ img.bio {
 		padding-left: 0;
 	}
 	}
-	/* @media (max-width: 768px){
+	@media (min-width: 768px) and (max-width: 959px){
 		.card {
 			width: 200px;
 			height: 200px;
 			position: relative;
 			left: 0;
-			/* right: 10px;
+			right: 10px;
 			left: 10px; 
 			display: inline-flex;
 			padding: 20px;
 			padding-left: 0;
 		}
-		} */
+		} 
 img.one {
 	width: 225px;
 	height: 225px;
@@ -718,7 +718,7 @@ img.one {
 	}
 }
 
-/* @media (max-width: 768px){
+@media (min-width: 768px) and (max-width: 959px){
 	img.one {
 	width: 200px;
 	height: 200px;
@@ -726,7 +726,7 @@ img.one {
 	padding-left: 0;
 	padding-right: 20px;
 	}
-} */
+}
 .card .img-top {
 		display: none;
 		position: absolute; 
@@ -752,7 +752,7 @@ img.one {
 	}
 	}
 
-	/* @media (max-width: 768px){
+	@media (min-width: 768px) and (max-width: 959px){
 		.card .img-top {
 			display: none;
 			position: absolute; 
@@ -765,8 +765,7 @@ img.one {
 			
 			z-index: 99;
 		}
-		}
-	 */
+	}
 
 .card:hover .img-top {
 display: inline;
@@ -806,7 +805,7 @@ div.neath-multi {
 		}	
 }
 
-/* @media (max-width: 768px){
+@media (min-width: 768px) and (max-width: 959px){
 	div.neath-multi {
 		position: absolute;
 		top: 255%;
@@ -857,7 +856,7 @@ left: 100px;
 	/* Border: solid 5px black; */
 }
 }
-/* @media (max-width: 768px){
+@media (min-width: 768px) and (max-width: 959px){
 	.schedule  {
 		display: flex;
 		flex-direction: column;
@@ -871,7 +870,7 @@ left: 100px;
 		margin-right: 0;
 		/* Border: solid 5px black; */
 	}
-	}	 */
+	}	
 	
 @media (min-width: 1800px){
 	.schedule  {
@@ -935,7 +934,7 @@ left: 100px;
 		width: 500px;
 	}}
 
-	/* @media (max-width: 768px){
+	@media (min-width: 768px) and (max-width: 959px){
 		.email	{
 			display: flex;
 			flex-direction: column;
@@ -946,7 +945,8 @@ left: 100px;
 			top: 250px;
 			left: 5px;
 			width: 700px;
-		}} */
+		}
+	}
 	@media (min-width: 1800px){
 		.email	{
 		position: absolute; 
@@ -954,9 +954,6 @@ left: 100px;
 
 		}
 	}
-
-
-	
 	.form	{
 		display: inline-block;	
 		position: absolute;
@@ -966,7 +963,6 @@ left: 100px;
 		right: 0;
 		width: 50%;
 		background-color: #553343;
-	
 }
 	
 
@@ -1033,7 +1029,7 @@ span.subm {
 }
 @media (max-width: 600px){
 .returnlink {
-	text-align: center; 
+ß	text-align: center; 
 	font-size: 11pt;
 	font-weight: 800;
 	margin-right: 0;
@@ -1042,65 +1038,7 @@ span.subm {
 }
 
 	 
-	/* @media (max-width: 768px){
-	div nav{
-	min-width: 768px;
-	max-width: 768px;
-		display: flex;
-	flex-direction: row;
-	}
-		padding-left: 10px;
-		margin-left: 25px;
-	}
-	
-}	
 	
 		
 
-@media (max-width: 768px){
-	.card{
-		width: 200px;
-		height: 200px;
 
-	}
-}
-
-@media (max-width: 768px){
-.container	{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-bottom: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
-	padding: 5px;
-	}
-
-}
-@media (max-width: 768px){
-	.schedule  {
-		display: flex;
-		flex-direction: column;
-		width: 48%;
-		position: absolute;
-		top: 20px;
-		left: 5px;
-		
-		}
-	}
-
-
-@media (max-width: 768px){
-	.form	{
-		position: absolute;
-		top: 1200px;
-	}
-}
-
-@media (max-width: 768px){
-.footer	{
-		
-		visibility: invisible;
-	
-	}
-} */
