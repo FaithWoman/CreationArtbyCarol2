@@ -30,7 +30,14 @@
 		width: 700px;		
 		}
 		}
-
+		@media (min-width: 1024px)and (max-width: 1100px) {	
+			body	{
+			background-color: antiquewhite;
+			box-sizing: content-box;
+			height: 2200px;
+					
+			}
+			}
 	@media (min-width: 1800px){	
 		body	{
 		background-color: antiquewhite;
@@ -141,7 +148,11 @@ h1 {
 	}
 }
 
-
+@media (min-width: 1024px)and (max-width:1100px){
+nav{
+	top: 12%;
+}
+}
 a.link{
 	color: hsla(0, 47%, 35%, 0.349);
 }
@@ -286,6 +297,14 @@ div.multi {
 			line-height: 20pt;
 		  }
 		}
+
+		
+@media (min-width: 1024px)and (max-width:1100px){
+.intro {
+		width: 60%;
+		margin-left: 10px;
+	}
+}
 		p	{
 			/* padding-bottom: 5px;  */
 			margin-left: 5px;
@@ -430,6 +449,17 @@ img.bio {
 	}
 	} 
 
+	@media (min-width: 1024px) and (max-width: 1100px){
+		.recentptg	{
+			width: 100%;
+			display: block;
+			height: 421px;
+			position: sticky;
+			top: 500px;	
+		}
+		}
+	
+	
 .recentptgcontainer  {
 	Width: 600px;
 	height: 421px;
@@ -458,6 +488,16 @@ img.bio {
 		box-shadow: 5px 5px 5px 3px maroon; 
 	}
 	}
+	@media (min-width: 1024px) and (max-width: 1100px){	
+		.recentptgcohntainer	{
+			display: flex;
+			flex-direction: row;
+			
+			width: 100%;
+		
+		}
+		}
+	
 
 /* These are the recent works picture captions */
 .recentn {	
@@ -508,6 +548,8 @@ img.bio {
 	overflow:auto;
 	height: auto;
    }
+
+
    @media (max-width: 600px){
    .container { 
 	box-sizing: border-box;
@@ -544,11 +586,12 @@ img.bio {
 	 height: auto;
 	 position: absolute;
 	 left: 0;
-	 top: 1850px;
-	 
- 
+	 top: 1850px; 
 	}
 	} 
+
+	
+
 
 /* This is the outside container for the gallery toggle links */
 	.exhibits {
@@ -558,7 +601,6 @@ img.bio {
 	   /* justify-items: space-between; */
 	   padding: 20px;
 	   margin-right: 25px;
-	 
 	   flex-direction: column;
 	   text-align: center;
 	   margin: 0 auto;
@@ -615,6 +657,14 @@ img.bio {
 		width: 700px;
 
 	}}
+	@media (min-width: 1024px) and (max-width: 1100px){
+		.container {
+			position: absolute: 
+			top: 35%
+			Margin-left: 0;
+			margin-right: 0;
+		}
+	}	
 	 
 /* This is the main heading for the five exhibits image links */
 		p.heading   {
@@ -702,7 +752,14 @@ img.bio {
 			padding: 20px;
 			padding-left: 0;
 		}
-		} 
+		}
+		
+		@media (min-width: 1024px) and (max-width: 1100px){
+			.card {
+				width: 150px;
+			height: 150px;
+			}
+		}
 img.one {
 	width: 225px;
 	height: 225px;
@@ -727,6 +784,13 @@ img.one {
 	padding-left: 0px;
 	padding-right: 20px;
 	justify-content: space-around;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1100px){
+	img.one {
+    width: 150px;
+	height: 150px;
 	}
 }
 .card .img-top {
@@ -766,7 +830,12 @@ img.one {
 			z-index: 99;
 		}
 	}
-
+	@media (min-width: 1024px) and (max-width: 1100px){
+		img.top {
+			width: 150px;
+		height: 150px;
+		}
+	}
 .card:hover .img-top {
 display: inline;
 
@@ -815,6 +884,21 @@ div.neath-multi {
 		
 	}
 }
+@media (min-width: 1024px)and (max-width:1100px){
+	div.neath-multi {
+		width: 70%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 160%;
+		left:0;
+		margin-left: 5px;
+		margin-right: 5px;
+		align-content: flex-start;	
+		/* border: solid green 5px; */
+	}	
+}
 
 @media (min-width: 1800px){
 	div.neath-multi {
@@ -831,6 +915,8 @@ div.neath-multi {
 		/* border: solid green 5px; */
 	}	
 }
+
+
 .schedule  {
 display: flex;
 flex-direction: column;
@@ -947,6 +1033,15 @@ left: 100px;
 			left: 5px;
 			width: 700px;
 			margin-top: 25px;
+		}
+	}
+
+	@media (min-width: 1024px)and (max-width: 1100px){
+		.email	{
+		width: 700px;
+		position: absolute;
+		left: 0;
+
 		}
 	}
 	@media (min-width: 1800px){
