@@ -813,7 +813,8 @@ div.neath-multi {
 		align-content: flex-start;
 		/* Border: solid 5px black; */
 		
-
+	}
+}
 
 @media (min-width: 1800px){
 	div.neath-multi {
