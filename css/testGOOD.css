@@ -449,16 +449,6 @@ img.bio {
 	}
 	} 
 
-	@media (min-width: 1024px) and (max-width: 1100px){
-		.recentptg	{
-			width: 100%;
-			display: block;
-			height: 421px;
-			position: sticky;
-			top: 500px;	
-		}
-		}
-	
 	
 .recentptgcontainer  {
 	Width: 600px;
@@ -915,8 +905,12 @@ div.neath-multi {
 		/* border: solid green 5px; */
 	}	
 }
-
-
+@media (min-width: 1300px)and (max-width:1300px)and (max-height: 740px){
+	div.neath-multi {
+		position: absolute;
+		top: 250%;
+	}
+}
 .schedule  {
 display: flex;
 flex-direction: column;
@@ -1088,7 +1082,7 @@ span.subm {
 		text-align: center;
 		width: 100%;
 		position: absolute;
-		top: 600px;
+		top: 610px;
 		bottom:0;
 		/* left: 0px; */
 		padding: 10px;
