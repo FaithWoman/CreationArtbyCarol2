@@ -911,14 +911,6 @@ div.neath-multi {
 		top: 250%;
 	}
 }
-
-@media (min-width: 1920px)and (max-width:1920px){
-	div.neath-multi {
-		position: absolute;
-		top: 250%;
-	}
-}
-
 .schedule  {
 display: flex;
 flex-direction: column;
