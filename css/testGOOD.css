@@ -950,6 +950,7 @@ left: 100px;
 	left:0;
 	margin-left: 0;
 	margin-right: 0;
+	margin-bottom: 15px;
 	/* Border: solid 5px black; */
 }
 }
@@ -965,6 +966,7 @@ left: 100px;
 		left:5%;
 		margin-left: 5px;
 		margin-right: 0;
+		
 		/* Border: solid 5px black; */
 	}
 	}	
