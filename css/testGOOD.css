@@ -153,7 +153,16 @@ nav{
 	top: 12%;
 }
 }
-a.link{
+
+@media (min-width: 1300px)and (max-width:1415px)and (min-height:720px ) and (max-height: 740px){
+nav {
+	top: 25%;
+}
+
+}
+
+
+	a.link{
 	color: hsla(0, 47%, 35%, 0.349);
 }
 
@@ -188,7 +197,16 @@ a.active {
 		padding: 0;
 	}
 }
-/* These are the individual list items in the gallery nav */
+
+@media (min-width: 1300px)and (max-width:1415px)and (min-height:720px ) and (max-height: 740px){
+ ul.nav {
+	 position: absolute;
+	 top: 5%
+ }
+}
+
+
+	/* These are the individual list items in the gallery nav */
 li.nav		{
 	display; flex;
 	justify-content: space-around;
@@ -921,10 +939,10 @@ div.neath-multi {
 		/* border: solid green 5px; */
 	}	
 }
-@media (min-width: 1300px)and (max-width:1315px)and (min-height:720px ) and (max-height: 740px){
+@media (min-width: 1300px)and (max-width:1415px)and (min-height:720px ) and (max-height: 740px){
 	div.neath-multi {
 		position: absolute;
-		top: 300%;
+		top: 740px;
 	}
 }
 .schedule  {
