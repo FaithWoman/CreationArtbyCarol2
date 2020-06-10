@@ -262,7 +262,12 @@ a.active {
 	 top: 5%
  }
 }
-
+@media (min-width: 1024px) and (max-width: 1100px){
+	ul.nav {
+		position: absolute'
+		left:0;
+	}
+}
 
 	/* These are the individual list items in the gallery nav */
 
@@ -537,6 +542,19 @@ img.bio {
 	}
 	} 
 
+	@media (min-width: 1024px) and (max-width: 1100px){	
+		.recentptg	{
+			width: 100%;
+			display: block;
+			height: 421px;
+			position: sticky;
+			top: 500px;
+			left:100px;
+			
+				
+		}
+		} 
+
 	
 .recentptgcontainer  {
 	Width: 600px;
@@ -570,8 +588,10 @@ img.bio {
 		.recentptgcohntainer	{
 			display: flex;
 			flex-direction: row;
+			position: absolute;
+			align-items: center;
 			
-			width: 100%;
+		
 		
 		}
 		}
@@ -964,18 +984,17 @@ div.neath-multi {
 }
 @media (min-width: 1024px)and (max-width:1100px){
 	div.neath-multi {
-		width: 70%;
+		width: 100%;
 		height: auto;
 		display: flex;
 		flex-direction: column;
 		position: absolute;
-		top: 160%;
+		top: 165%;
 		left:0;
 		margin-left: 5px;
 		margin-right: 5px;
 		align-content: flex-start;	
-		/* border: solid green 5px; */
-	}	
+	}
 }
 
 @media (min-width: 1600px)and (min-height: 1348px){
@@ -1057,7 +1076,15 @@ left: 100px;
 		
 		/* Border: solid 5px black; */
 	}
-	}	
+	}
+	@media (min-width: 1024px)and (max-width: 1100px){
+		.schedule	{
+		width: 700px;
+		position: absolute;
+		top:25px;
+		left:150px;
+		}
+	}
 	
 @media (min-width: 1800px){
 	.schedule  {
@@ -1141,7 +1168,7 @@ left: 100px;
 		.email	{
 		width: 700px;
 		position: absolute;
-		left: 0;
+		left:20px;
 
 		}
 	}
