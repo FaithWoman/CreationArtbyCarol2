@@ -282,7 +282,7 @@ div.gallery{
 
 div.gallery-heading{
 	position: absolute;
-	top:125px;
+	/* top:200px; */
 	left: 100px;
 	text-align: left;
 	margin-top: 25px;
@@ -355,14 +355,16 @@ img.painting	{
 }
 
 /* The expanding image container */
-.container  {
+.container {
  position: absolute;
- top: 500px;
+ top: 300px;
  bottom: 0;
  align: center;
  display: none;
 z-index: 10;
 }
+
+
 
 /* Expanding image text */
 #imgtext {
