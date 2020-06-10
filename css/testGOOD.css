@@ -6,7 +6,7 @@
 	}
 	f
 	body	{
-		background-color: antiquewhite;
+		background: antiquewhite;
 		box-sizing: border-box;
 		opacity: 8;
 		margin: 0 auto;
@@ -120,7 +120,7 @@ h1 {
 	padding-bottom: 10px;
 }
 
-/* This is the list of links in the nav */
+This is the list of links in the nav
 
 	nav		{
 	display: flex;
@@ -128,14 +128,15 @@ h1 {
 	width:80%;
 	position: absolute;
 	top: 19%;
-	left: 20px;
+	left: 5px;
 	height: auto;	
 	margin-bottom: 25px;
 	overflow: visible;
+	/* border: solid 10px darkgreen; */
 }
 	@media (max-width: 600px){
 	nav{
-	width: 25%;
+	/* width: 30%; */
 	margin: 0 auto;
 	position: absolute;
 	top: 23%;
@@ -145,6 +146,7 @@ h1 {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
+	/* border: solid 10px black; */
 	}
 }
 
@@ -161,7 +163,58 @@ nav {
 
 }
 
+/* This is the list of links in the nav */
 
+div.nav		{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 85px;
+	right: 100px;
+	margin-left: 10px;
+	margin-top: 25px;	
+	margin-bottom: 25px;
+	overflow: visible;
+/* border	: solid maroon 10px;	 */
+}
+
+@media (max-width: 600px){
+div.nav		{
+	margin-left: 0;
+	/* border: solid 10px maroon; */
+	
+}
+}
+
+ul.nav		{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	font-size: 15pt;
+	font-weight: 800;
+	width: 100%;
+	justify-content: center;
+	align-content: center;
+	margin-left: 5px;
+    margin-top: 20px;
+	margin-bottom: 100px;
+	/* border: dotted 5px black; */
+
+}
+
+@media (max-width:1024px) and (max-height: 1368px){
+ul.nav{
+	position: absolute;
+	left: 5%;
+}
+}
+
+
+li a	{
+	text-decoration: none;
+}
 	a.link{
 	color: hsla(0, 47%, 35%, 0.349);
 }
@@ -193,10 +246,15 @@ a.active {
 		position: absolute;
 		top: 5%;	
 		left: 5%;
-		width: 75%;
+		width: 100%;
 		padding: 0;
+		justify-content: flex-start;
+	align-content: flex-start;
+	/* border: solid 10px darkorchid; */
 	}
 }
+
+	
 
 @media (min-width: 1300px)and (max-width:1415px)and (min-height:720px ) and (max-height: 740px){
  ul.nav {
@@ -207,19 +265,26 @@ a.active {
 
 
 	/* These are the individual list items in the gallery nav */
+
+
 li.nav		{
 	display; flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	width: 150px;
-	margin: 20px 8px;
+	margin: 8px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	color: #antiquewhite;
 	font-weight: 800;
-	font-size: 16pt;
+	font-size: 15pt;
 	font-style: italic;
 	padding-left: 10px;
 	height: 25px;
-	z-index:99;
+	border-radius: 30px 40px;
+	z-index:1;
 }
+
 
 @media (max-width: 600px){
 	li.nav{
@@ -227,6 +292,8 @@ li.nav		{
 		padding: 0;
 		padding-top; 5px;
 		padding-bottom: 5px;
+		
+		
 	}	
 	}
 
@@ -238,8 +305,9 @@ li a	{
 div.multi {
 	display: flex;
 	flex-direction: row;
+	position: absolute;
+	top: 25%;
 	width: 100%;
-	height: 2000px;
 	background-color: antiquewhite;
 	height: 2500px;
 }
@@ -250,6 +318,8 @@ div.multi {
 		flex-direction: column;
 		justify-content: flex-start;
 		flex-wrap: wrap;
+		position: absolute;
+		top: 25%;
 		width: 100%;
 		height: 2000px;
 		background-color: antiquewhite;
@@ -263,7 +333,7 @@ div.multi {
 	width: 70%;
 	margin-right: 10px;
 	margin-left: 35px;
-	margin-top: 20px;
+	margin-top: 10px;
 	padding-left:10px;
 	padding-right:10px;
 	padding:top: 25px;
@@ -293,7 +363,7 @@ div.multi {
 			display: flex;
 			flex-direction: column;
 			position: absolute;
-			top: 28%;
+			top: 1%;
 			left:3px;
 			margin: 0 auto;
 			padding: 0;
@@ -480,8 +550,8 @@ img.bio {
 @media (max-width: 600px){
 .recentptgcontainer  {
 	Width: 600px;
-	height: 421px;
 	margin-left: 0;
+	height: 421px;
 	margin-right: 0px;
 	box-shadow: 5px 5px 5px 3px maroon; 
 }
@@ -615,7 +685,7 @@ img.bio {
 	   margin-bottom: 25px;	
 	   position: absolute;
 	   right:0;
-		top: 35%;  
+		top: 5%;  
 		width: 20%;
 		height: auto;
 		opacity: .7;
@@ -639,7 +709,7 @@ img.bio {
 		flex-direction: row;
 		flex-wrap: wrap;
 		position: absolute;
-		top: 1020px;
+		top: 1010px;
 		left: 0;
 		width: 425px;
 
@@ -872,7 +942,7 @@ div.neath-multi {
 			display: flex;
 			flex-direction: column;
 			position: absolute;
-			top: 700px;
+			top: 900px;
 			left:0;
 			/* margin-left: 5px;
 			margin-right: 5px; */
