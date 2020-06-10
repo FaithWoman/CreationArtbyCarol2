@@ -271,7 +271,7 @@ h2 	{
 
 div.gallery{
 	position: absolute;
-	top: 125px;
+	top: 150px;
 	left:100px;
 	width: 100%;
 	text-align: center;
@@ -282,22 +282,24 @@ div.gallery{
 
 div.gallery-heading{
 	position: absolute;
-	/* top:200px; */
+	/* top:225px; */
 	left: 100px;
 	text-align: left;
 	margin-top: 25px;
+	
 	
 }
 
 div.p-galleryname1a	{
 	text-align: left;
 	position: absolute;
-	top: 100px;
+	top: 150px;
 	font-size: 20pt;
 	font-weight: 600;
 	color: #552243;
 	margin-left: 25px;
 	font-style: italic;
+	font-family: gudea
 	
 }
 
@@ -309,6 +311,7 @@ div.p-galleryname1b	{
 	color: #552243;
 	margin-left: 25px;
 	font-style: italic;
+	font-family: gudea;
 	
 }
 
@@ -321,6 +324,7 @@ div.p-galleryname2	{
 	margin-left: 25px;
 	margin-top: 5px;
 	font-style: italic;
+	font-family: gudea;
 
 	}
 
@@ -399,7 +403,7 @@ a	{
 
 div.desc
 	{
-		font-size: 18pt;
+		font-size: 15pt;
 		color:#553243;
 	}
 
