@@ -436,28 +436,24 @@ div.desc
 
 	/* Bottom of Page with Contact Informtion */
 
-.footer-container {
-	display: block;
-	text-align: center;
-	width: 100%;
-	/* border: solid brightpink 5px; */
-}
 
-.footer	{
+
+div.footer	{
 		display: block;
 		text-align: center;
 		width: 100%;
-		position: absolute;
-		top: 610px;
+		position: relative;
+		top: 350%;
 		bottom:0;
 		/* left: 0px; */
 		padding: 10px;
 		height: 40px;
-		font-size:  15pt;
+		font-size:  12pt;
 		font-style: italic; 
 		color: #553344;	
 		background-color: antiquewhite;
-		margin-top: 10px;
+		margin-top: 25px;
+		border: solid black 10px;
 	
 }
 @media (max-width: 600px){
@@ -468,7 +464,7 @@ div.desc
 	width: 100%;
 	position: absolute;
 	bottom: 0;
-	top: 1000px;
+	top: 1700px;
 	left: 0;
 	/* text-align: center;  */
 	/* border: solid 5px black; */
@@ -491,67 +487,3 @@ div.desc
 	/* border: solid 5px greenyellow */
 }
 }
-
-		
-
-	  	/* .footer {
-			position: absolute;
-			display: inline-block;
-			bottom: -15%;
-			Left: -25%;
-			width: 100%;
-			height: 2.5rem;
-			text-align: center; 
-			font-size:  15pt;
-			font-style: italic; 	
-			color: #553344;
-	  		} */
-
-		
-			
-			 /* @media (max-width: 600px){	 
-			div.p-galleryname2	{
-				text-align: left;
-				position: relative;
-				top: 350px;
-				font-size: 15pt;
-				color: #552243;
-				margin-left: 0px;
-				margin-top: 5px;
-				font-style: italic;
-			}
-		}
-
-			 @media (max-width: 600px){		
-				img.painting	{
-					border: 15px solid gray;
-					align: center;
-					background-color: antiquewhite;
-			}
-		}	
-
-			@media (max-width: 600px){
-			div.desc	{
-				font-size: 12pt;
-			} 
-		}
-		
-			@media (max-width: 600px){	
-				div.footer {
-					display: flex;
-					position: absolute;
-					flex-direction: row;
-					margin-left: 5px;
-					margin-right: 5px;
-					margin-bottom: 20px;
-					margin-top: 20px;
-					top: 218%;
-					left: 50%;
-					width: 100%;
-					height: 2.5rem;
-					font-size:  10pt;
-					font-style: italic; 
-					color: #553344;	
-				  }
-		} 
-	} */
