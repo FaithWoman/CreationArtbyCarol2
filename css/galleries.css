@@ -464,7 +464,7 @@ div.footer	{
 	width: 100%;
 	position: absolute;
 	bottom: 0;
-	top: 1700px;
+	top: 900px;
 	left: 0;
 	/* text-align: center;  */
 	/* border: solid 5px black; */
@@ -480,7 +480,7 @@ div.footer	{
 }
 @media (max-width: 600px){
 .returnlink {
-ß	text-align: center; 
+	text-align: center; 
 	font-size: 11pt;
 	font-weight: 800;
 	margin-right: 0;
