@@ -997,14 +997,14 @@ div.neath-multi {
 	}
 }
 
-@media (min-width: 1600px)and (min-height: 1348px){
+@media (max-width: 1366px)and (min-height: 768px){
 	div.neath-multi {
 		width: 70%;
 		height: auto;
 		display: flex;
 		flex-direction: column;
 		position: absolute;
-		top: 145%;
+		top: 200%;
 		left:0;
 		margin-left: 5px;
 		margin-right: 5px;
