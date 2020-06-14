@@ -1089,7 +1089,7 @@ left: 100px;
 	@media (min-width: 1366px)and (max-height: 768px){
 	.schedule {
 		position: absolute;
-		top: 1000px;
+		top: 780px;
 	}
 	}
 @media (min-width: 1800px){
