@@ -35,9 +35,15 @@
 			background-color: antiquewhite;
 			box-sizing: content-box;
 			height: 2200px;
-					
 			}
+		}	
+			@media (min-width: 1366px) and (min-height: 768px) {
+			body{
+				height: 1000px;
 			}
+		}
+
+
 	@media (min-width: 1800px){	
 		body	{
 		background-color: antiquewhite;
