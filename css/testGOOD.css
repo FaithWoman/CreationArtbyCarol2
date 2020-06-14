@@ -1003,7 +1003,7 @@ div.neath-multi {
 	}
 }
 
-@media (min-width: 1366px)and (min-height: 768px){
+/* @media (min-width: 1366px)and (min-height: 768px){
 	div.neath-multi {
 		width: 70%;
 		height: auto;
@@ -1017,7 +1017,7 @@ div.neath-multi {
 		align-content: flex-start;	
 		border: solid green 5px;
 	}	
-}
+} */
 
 @media (min-width: 1800px)and (max-height: 1152px){
 	div.neath-multi {
@@ -1092,13 +1092,13 @@ left: 100px;
 		}
 	}
 
-	@media (min-width: 1366px)and (max-height: 768px){
+	/* @media (min-width: 1366px)and (max-height: 768px){
 	.schedule {
 		position: absolute;
 		top: 50px;
-		border: solid 5px black;
+		/* border: solid 5px black; */
 	}
-	} 
+	}  */
 @media (min-width: 1800px){
 	.schedule  {
 	position: absolute;
