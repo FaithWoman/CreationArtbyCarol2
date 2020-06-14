@@ -997,7 +997,7 @@ div.neath-multi {
 	}
 }
 
-@media (max-width: 1366px)and (max-height: 1200px){
+@media (max-width: 1366px)and (min-height: 768px){
 	div.neath-multi {
 		width: 70%;
 		height: auto;
