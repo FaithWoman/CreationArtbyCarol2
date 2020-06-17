@@ -476,14 +476,14 @@ div.footer	{
 @media (min-width: 1024px)and (max-width: 1100px){
 	.footer{
 	position: absolute;
-	top:810px;
+	top:900px;
 
 	}
 }
 @media (min-width: 1800px){
 	.footer{
 	position: absolute; 
-	top: 910px;
+	top: 1200px;
 
 	}
 }
