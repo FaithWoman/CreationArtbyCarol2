@@ -379,8 +379,8 @@ display: inline;
 	top: 775px;
 	right: 0;
 	width: 100%;
-	border: 5px black solid
-}
+	/* border: 5px black solid
+} */
 
 ul.schedule	{
 	position: relative;
