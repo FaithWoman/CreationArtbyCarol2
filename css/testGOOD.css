@@ -1217,12 +1217,12 @@ span.subm {
 
 /* Bottom of Page with Contact Informtion */
 
-.footer-container {
+/* .footer-container {
 	display: block;
 	text-align: center;
 	width: 100%;
-	/* border: solid brightpink 5px; */
-}
+border: solid 10px brightpink;
+} */
 
 .footer	{
 		display: block;
