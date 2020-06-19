@@ -1,4 +1,4 @@
-
+f
 
 
 * {
@@ -486,8 +486,8 @@ div.footer	{
 	}
 @media (min-width: 1600px){
 	.footer{
-	position: absolute; 
-	top: 2000px;
+	position: -webkit-sticky; 
+	top: 3000px;
 
 	}
 }
