@@ -484,11 +484,11 @@ div.footer	{
 			top: 1400px;
 }
 	}
-@media (min-width: 1900px){
+@media (min-width: 1900px){and min height: 1100px)
 	.footer{
 	position: sticky; 
 	bottom:0;
-	/* top: 3000px; */
+	top: 3000px;
 
 	}
 }
