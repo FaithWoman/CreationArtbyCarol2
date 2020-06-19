@@ -463,12 +463,13 @@ div.footer	{
 	font-size: 10pt;
 	width: 100%;
 	position: absolute;
-	top: 10px;
+	top: -900px;
 	left: 0;
 	/* text-align: center;  */
 	/* border: solid 5px black; */
 	margin-left: 0;
 	margin-right: 0;
+	/* border: solid 5px red; */
 	}
 } 
 
