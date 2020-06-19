@@ -456,6 +456,8 @@ div.footerI	{
 	
 }
 
+
+
 div.footerII	{
 	display: block;
 	text-align: center;
@@ -474,10 +476,9 @@ div.footerII	{
 	/* border: solid black 10px; */
 
 }
-
 @media (max-width: 600px){
 	
-	div.footer {
+	div.footerI {
 	display: block;
 	font-size: 10pt;
 	width: 100%;
@@ -493,19 +494,20 @@ div.footerII	{
 } 
 
 @media (min-width: 1024px)and (max-width: 1100px){
-	.footer{
+	.footerII{
 	position: absolute;
 	top:500px;
 	}
 	}
+
 	@media (min-width: 1250px){
-		.footer{
+		.footerII{
 			position: sticky; 
 			top: 1400px;
 }
 	}
 @media (min-width: 1900px){and min height: 1100px)
-	.footer{
+	.footerII{
 	position: sticky; 
 	bottom:0;
 	top: 3500px;
@@ -514,6 +516,8 @@ div.footerII	{
 
 	}
 }
+
+
 
 .returnlink {
 	text-align: right;
