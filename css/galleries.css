@@ -486,8 +486,9 @@ div.footer	{
 	}
 @media (min-width: 1600px){
 	.footer{
-	position: -webkit-sticky; 
-	top: 3000px;
+	position: sticky; 
+	bottom:0;
+	/* top: 3000px; */
 
 	}
 }
