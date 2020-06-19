@@ -441,8 +441,8 @@ div.footer	{
 		display: block;
 		text-align: center;
 		width: 100%;
-		position: absolute;
-		top:2500px;
+		position: sticky;
+		top:2000px;
 		bottom:0;
 		/* left: 0px; */
 		padding: 10px;
