@@ -484,7 +484,7 @@ div.footer	{
 			top: 1400px;
 }
 	}
-@media (min-width: 1600px){
+@media (min-width: 1900px){
 	.footer{
 	position: sticky; 
 	bottom:0;
