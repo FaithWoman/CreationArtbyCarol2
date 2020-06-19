@@ -477,9 +477,14 @@ div.footer	{
 	.footer{
 	position: absolute;
 	top:500px;
-
 	}
+	}
+	@media (min-width: 1250px){
+		.footer{
+			position: sticky; 
+			top: 1400px;
 }
+	}
 @media (min-width: 1600px){
 	.footer{
 	position: absolute; 
