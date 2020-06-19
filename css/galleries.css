@@ -489,6 +489,7 @@ div.footer	{
 	position: sticky; 
 	bottom:0;
 	top: 3300px;
+	left: 500px;
 
 	}
 }
