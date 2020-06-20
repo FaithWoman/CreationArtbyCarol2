@@ -833,8 +833,8 @@ img.bio {
 /*here are the mechanics of the back and forth painting displays*/
 @media (max-width: 600px){
 	.card {
-		width: 200px;
-		height: 150px;
+		width:180px;
+		height: 180px;
 		position: relative;
 		/* right: 10px;
 		left: 10px; */
@@ -872,8 +872,8 @@ img.one {
 
 @media (max-width: 600px){
 	img.one {
-	width: 200px;
-	height: 150px;
+	width: 180px;
+	height: 180px;
 	padding: 20px;
 	padding-left: 0;
 	padding-right: 20px;
@@ -912,8 +912,8 @@ img.one {
 		position: absolute; 
 		top: 0;
 		left: 0;
-		width: 200px;
-		height: 150px;
+		width: 180px;
+		height: 180px;
 		padding: 20px;
 		padding-left: 0;
 		z-index: 99;
