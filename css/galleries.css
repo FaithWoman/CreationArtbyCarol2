@@ -455,27 +455,6 @@ div.footerI	{
 		/* border: solid black 10px; */
 	
 }
-
-
-
-div.footerII	{
-	display: block;
-	text-align: center;
-	width: 100%;
-	position: absolute;
-	top:3000px;
-	bottom:0;
-	/* left: 0px; */
-	padding: 10px;
-	height: 40px;
-	font-size:  12pt;
-	font-style: italic; 
-	color: #553344;	
-	background-color: antiquewhite;
-	margin-top: 25px;
-	/* border: solid black 10px; */
-
-}
 @media (max-width: 600px){
 	
 	div.footerI {
@@ -492,6 +471,46 @@ div.footerII	{
 	/* border: solid 5px red; */
 	}
 } 
+
+
+
+
+div.footerII	{
+	display: block;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top:3200px;
+	bottom:0;
+	/* left: 0px; */
+	padding: 10px;
+	height: 40px;
+	font-size:  12pt;
+	font-style: italic; 
+	color: #553344;	
+	background-color: antiquewhite;
+	margin-top: 25px;
+	/* border: solid black 10px; */
+
+}
+
+@media (max-width: 600px){
+	
+	div.footerII {
+	display: block;
+	font-size: 10pt;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	/* text-align: center;  */
+	/* border: solid 5px black; */
+	margin-left: 0;
+	margin-right: 0;
+	/* border: solid 5px red; */
+	}
+} 
+
 
 @media (min-width: 1024px)and (max-width: 1100px){
 	.footerII{
@@ -510,7 +529,7 @@ div.footerII	{
 	.footerII{
 	position: sticky; 
 	bottom:0;
-	top: 3500px;
+	top: 4000px;
 	left: 500px;
 	/* border: solid black 10px; */
 
