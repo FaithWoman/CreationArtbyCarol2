@@ -108,7 +108,7 @@ This is the list of links in the nav
 }
 	@media (max-width: 600px){
 	nav{
-	width: 30%;
+	width: 50%;
 	margin: 0 auto;
 	position: absolute;
 	top: 22%;
