@@ -196,7 +196,7 @@ li.nav		{
 @media (max-width: 600px){
 	li.nav{
 		font-size: 11pt;
-		padding: 0;
+		padding: 5px;
 		padding-top; 5px;
 		padding-bottom: 5px;
 	}	
@@ -345,6 +345,13 @@ div.p-galleryname2	{
 		font-style: italic;
 		font-family: gudea, sans-serif;
 	
+		}
+
+		@media (max-width: 600px){
+			div.p-galleryname2-b	{
+				font-size: 15pt;
+				/* top: 80px; */
+		}
 		}
 	
 
