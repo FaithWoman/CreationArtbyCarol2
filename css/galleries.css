@@ -472,7 +472,7 @@ div.footerI	{
 	}
 }
 
-@media (min-width: 1900px)and (min height: 1100px){}
+@media (min-width: 1900px)and (min height: 1100px){
 	.footerI{
 	position: sticky; 
 	bottom:0;
