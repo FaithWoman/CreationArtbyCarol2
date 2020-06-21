@@ -462,7 +462,7 @@ div.footerI	{
 	font-size: 10pt;
 	width: 100%;
 	position: sticky;
-	top: 500px;
+	top: 520px;
 	left: 0;
 	/* text-align: center;  */
 	/* border: solid 5px black; */
@@ -472,7 +472,7 @@ div.footerI	{
 	}
 }
 
-@media (min-width: 1900px){and min height: 1100px)
+@media (min-width: 1900px)and (min height: 1100px){}
 	.footerI{
 	position: sticky; 
 	bottom:0;
@@ -513,7 +513,7 @@ div.footerII	{
 	font-size: 10pt;
 	width: 100%;
 	position: absolute;
-	top: 480px;
+	top: 500px;
 	left: 0;
 	/* text-align: center;  */
 	/* border: solid 5px black; */
