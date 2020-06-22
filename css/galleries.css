@@ -480,13 +480,13 @@ div.footerI	{
 	}
 }
 
-@media (min-width: 1900px)and (min height: 1100px){
+@media (min-width: 1800px)and (min height: 1100px){
 	.footerI{
 	position: sticky; 
 	bottom:0;
 	top: 4500px;
 	left: 500px;
-	/* border: solid black 10px; */
+	border: solid black 10px;
 
 	}
 }
