@@ -480,10 +480,10 @@ div.footerI	{
 	}
 }
 
-@media (min-width: 1800px)and (min height: 1100px){
+@media (min-width: 1600px)and (min height: 1100px){
 	.footerI{
 	position: absolute; 
-	bottom:0;
+	
 	top: 4500px;
 	left: 500px;
 	border: solid black 10px;
@@ -545,7 +545,7 @@ div.footerII	{
 			top: 1400px;
 }
 	}
-@media (min-width: 1900px){
+/* @media (min-width: 1900px){
 	.footerII{
 	position: sticky; 
 	bottom:0;
@@ -554,7 +554,7 @@ div.footerII	{
 	/* border: solid black 10px; */
 
 	}
-}
+} */
 
 
 
