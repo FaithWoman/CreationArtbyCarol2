@@ -480,8 +480,8 @@ div.footerI	{
 	}
 }
 
-@media (min-width: 1600px)and (min height: 1100px){
-	.footerI{
+@media (min-width: 1600px){
+	div.footerI{
 	position: absolute; 
 	
 	top: 4500px;
