@@ -480,13 +480,13 @@ div.footerI	{
 	}
 }
 
-@media (min-width: 1600px){
+@media (min-width: 1600px)and (max-width: 2000px){
 	div.footerI{
 	position: absolute; 
 	
 	top: 4500px;
-	left: 500px;
-	border: solid black 10px;
+	left: 100px;
+	/* border: solid black 10px; */
 
 	}
 }
