@@ -482,7 +482,7 @@ div.footerI	{
 
 @media (min-width: 1800px)and (min height: 1100px){
 	.footerI{
-	position: sticky; 
+	position: absolute; 
 	bottom:0;
 	top: 4500px;
 	left: 500px;
