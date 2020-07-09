@@ -270,7 +270,7 @@ a.active {
 }
 @media (min-width: 1024px) and (max-width: 1100px){
 	ul.nav {
-		position: absolute;
+		position: absolute'
 		left:0;
 	}
 }
@@ -1003,21 +1003,21 @@ div.neath-multi {
 	}
 }
 
- @media (min-width: 1366px)and (min-height: 768px){
+/* @media (min-width: 1366px)and (min-height: 768px){
 	div.neath-multi {
-		/* width: 70%;
+		width: 70%;
 		height: auto;
 		display: flex;
-		flex-direction: column; */
+		flex-direction: column;
 		position: absolute;
-		top:1000px;
-		/* left:0;
+		top:700px;
+		left:0;
 		margin-left: 5px;
 		margin-right: 5px;
 		align-content: flex-start;	
-		border: solid green 5px; */ 
+		border: solid green 5px;
 	}	
-} 
+} */
 
 @media (min-width: 1800px)and (max-height: 1152px){
 	div.neath-multi {
@@ -1258,12 +1258,6 @@ border: solid 10px brightpink;
 	margin-right: 0;
 	}
 } 
-
-img.insta{
-	width: 3px;
-	height: 3px;
-
-}
 .returnlink {
 	text-align: right;
 	font-size: 15pt;
