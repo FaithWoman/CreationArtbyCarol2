@@ -355,7 +355,7 @@ div.p-galleryname2	{
 		}
 	
 
-/* The grid: eight equal columns that floats next to each other */
+/* The grid: eight equal columns that float next to each other */
 .column {
   float: left;
   width: 20%;
@@ -386,7 +386,7 @@ img.painting	{
 }
 
 /* The expanding image container */
-.container {
+.container{
  position: absolute;
  top: 300px;
  bottom: 0;
@@ -394,6 +394,8 @@ img.painting	{
  display: none;
 z-index: 10;
 }
+
+
 
 
 
