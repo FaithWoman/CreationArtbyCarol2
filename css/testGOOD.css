@@ -1009,7 +1009,7 @@ div.neath-multi {
 		height: auto;
 		display: flex;
 		flex-direction: column; */
-		position: sticky;
+		position: absolute;
 		top:600px;
 		/* left:0;
 		margin-left: 5px;
