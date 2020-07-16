@@ -217,7 +217,7 @@ div.nav		{
 @media (max-width: 600px){
 	ul.nav {
 		position: absolute;
-		top: 18%;	
+		top: 12%;	
 		left: 20%;
 		width: 150px;
 		padding: 0;
