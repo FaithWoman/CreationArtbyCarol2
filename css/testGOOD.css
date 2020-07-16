@@ -532,9 +532,11 @@ img.bio {
 .recentptg	{
 	width: 100%;
 	display: block;
+	text-align: center;
 	height: 421px;
 	position: sticky;
 	top: 500px;
+	left: 20px;
 	
 }
 }
@@ -566,15 +568,15 @@ img.bio {
 	Width: 303px;
 	height: 421px;
 	margin-left: 10%;
-	margin-right: 25%;
+	margin-right: 35%;
 	margin-top: 0;
 	box-shadow: 5px 5px 5px 3px maroon; 
 }
 
 @media (max-width: 600px){
 .recentptgcontainer  {
-	Width: 600px;
-	/* margin-left: 0; */
+	Width: 303px;
+	margin-left: 10px;
 	height: 421px;
 	margin-right: 0px;
 	box-shadow: 5px 5px 5px 3px maroon; 
