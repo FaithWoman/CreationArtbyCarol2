@@ -574,7 +574,7 @@ img.bio {
 @media (max-width: 600px){
 .recentptgcontainer  {
 	Width: 600px;
-	margin-left: 0;
+	/* margin-left: 0; */
 	height: 421px;
 	margin-right: 0px;
 	box-shadow: 5px 5px 5px 3px maroon; 
