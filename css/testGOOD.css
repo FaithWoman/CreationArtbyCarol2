@@ -526,7 +526,7 @@ img.bio {
 .recentptg	{
 	width: 100%;
 	display: block;
-	height: 425px;
+	height: 584px;
 }
 @media (max-width: 600px){
 .recentptg	{
@@ -563,9 +563,9 @@ img.bio {
 
 	
 .recentptgcontainer  {
-	Width: 600px;
+	Width: 303px;
 	height: 421px;
-	margin-left: 25%;
+	margin-left: 10%;
 	margin-right: 25%;
 	margin-top: 0;
 	box-shadow: 5px 5px 5px 3px maroon; 
@@ -583,7 +583,7 @@ img.bio {
 
 @media (min-width: 768px) and (max-width: 959px){
 	.recentptgcontainer  {
-		Width: 600px;
+		Width: 303px;
 		height: 421px;
 		margin-left: 8px;
 		margin-right: 8px;
