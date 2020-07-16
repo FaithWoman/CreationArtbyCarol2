@@ -142,7 +142,7 @@ This is the list of links in the nav
 }
 	@media (max-width: 600px){
 	nav{
-	/* width: 30%; */
+	width: 100%;
 	margin: 0 auto;
 	position: absolute;
 	top: 18%;
@@ -186,7 +186,7 @@ div.nav		{
 /* border	: solid maroon 10px;	*/
 } 
 
-@media (max-width: 600px){
+/* @media (max-width: 600px){
 div.nav		{
 	position: absolute;
 	top: 18%;
@@ -196,7 +196,7 @@ div.nav		{
 	width:100%;
 	
 }
-}
+} */
 
  ul.nav		{
 	display: flex;
