@@ -190,7 +190,7 @@ div.nav		{
 @media (max-width: 600px){
  div.nav		{
 	position: absolute;
-	top: 12%;
+	top: 23%;
 	margin-left: 40px;
 	width: 150px
 	border: solid 10px maroon;
@@ -219,7 +219,7 @@ div.nav		{
  @media (max-width: 600px){
 	ul.nav {
 		position: absolute;
-		top: 18%;	
+		top: 5%;	
 		left: 40px;
 		width: 200px;
 		padding: 0;
@@ -231,7 +231,7 @@ div.nav		{
 	}
 } 
 	
-@media (min-width: 1024px) and (max-width: 1100px){
+/* @media (min-width: 1024px) and (max-width: 1100px){
 	ul.nav {
 		position: absolute;
 		left:0;
@@ -244,14 +244,10 @@ div.nav		{
 		top: 5%;
 		border: solid black 5px;
 	}
-   }
+   } */
 
-@media (max-width:1024px) and (max-height: 1368px){
-ul.nav{
-	position: absolute;
-	left: 5%;
-}
-} 
+
+
 
 
 li a	{
@@ -338,11 +334,11 @@ li.nav		{
 @media (max-width: 600px){
 	li.nav{
 		font-size: 12pt;
-		padding: 5px;
+		padding: 10px;
 		padding-top; 5px;
 		padding-bottom: 5px;
 		width: 100%;
-		justify-content: space-around;
+		justify-content: space-between;
 		
 		
 	}	
