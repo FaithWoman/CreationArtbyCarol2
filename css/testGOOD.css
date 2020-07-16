@@ -190,7 +190,7 @@ div.nav		{
 @media (max-width: 600px){
  div.nav		{
 	position: absolute;
-	top: 23%;
+	top: 18%;
 	margin-left: 40px;
 	width: 150px
 	border: solid 10px maroon;
@@ -224,6 +224,7 @@ div.nav		{
 		width: 200px;
 		padding: 0;
 		margin-left 30px;
+		align-content: flex-end;
 		/* justify-content: space-around;
 	align-content: center;
 	margin-left: 10px; */
