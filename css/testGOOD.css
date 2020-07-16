@@ -138,7 +138,7 @@ This is the list of links in the nav
 	height: auto;	
 	margin-bottom: 25px;
 	overflow: visible;
-	/* border: solid 10px darkgreen; */
+	border: solid 10px darkgreen;
 }
 	@media (max-width: 600px){
 	nav{
@@ -177,14 +177,14 @@ div.nav		{
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	top: 85px;
+	top: 130px;
 	right: 100px;
 	margin-left: 10px;
 	margin-top: 25px;	
 	margin-bottom: 25px;
 	overflow: visible;
-/* border	: solid maroon 10px;	 */
-}
+/* border	: solid maroon 10px;	*/
+} 
 
 @media (max-width: 600px){
 div.nav		{
@@ -194,15 +194,15 @@ div.nav		{
 }
 }
 
-ul.nav		{
+ ul.nav		{
 	display: flex;
 	flex-direction: row;
 	list-style: none;
 	font-size: 15pt;
 	font-weight: 800;
 	width: 100%;
-	justify-content: center;
-	align-content: center;
+	justify-content: flex-end;
+	align-content: flex-end;
 	margin-left: 5px;
     margin-top: 20px;
 	margin-bottom: 100px;
@@ -210,12 +210,39 @@ ul.nav		{
 
 }
 
+@media (max-width: 600px){
+	ul.nav {
+		position: absolute;
+		top: 5%;	
+		left: 5%;
+		width: 100%;
+		padding: 0;
+		justify-content: flex-start;
+	align-content: flex-start;
+	border: solid 10px darkorchid;
+	}
+}
+	
+@media (min-width: 1024px) and (max-width: 1100px){
+	ul.nav {
+		position: absolute;
+		left:0;
+	}
+}
+
+@media (min-width: 1300px)and (max-width:1415px)and (min-height:720px ) and (max-height: 740px){
+	ul.nav {
+		position: absolute;
+		top: 5%
+	}
+   }
+
 @media (max-width:1024px) and (max-height: 1368px){
 ul.nav{
 	position: absolute;
 	left: 5%;
 }
-}
+} 
 
 
 li a	{
@@ -236,7 +263,7 @@ a.hover {
 a.active {
 	color: #334255;
 }
-/* This is the nav list that holds the gallery links */
+/* This is the nav list that holds the gallery links
 	ul.nav		{
 	display: flex;
 	flex-direction: row;
@@ -245,9 +272,10 @@ a.active {
 	font-weight: 800;
 	width: 100%;
 	justify-content: flex-end;
-	align-content: flex-end;	
-}
-@media (max-width: 600px){
+	align-content: flex-end;
+	border: solid 10px red	
+} */
+/* @media (max-width: 600px){
 	ul.nav {
 		position: absolute;
 		top: 5%;	
@@ -256,18 +284,13 @@ a.active {
 		padding: 0;
 		justify-content: flex-start;
 	align-content: flex-start;
-	/* border: solid 10px darkorchid; */
+	border: solid 10px darkorchid;
 	}
 }
 
 	
 
-@media (min-width: 1300px)and (max-width:1415px)and (min-height:720px ) and (max-height: 740px){
- ul.nav {
-	 position: absolute;
-	 top: 5%
- }
-}
+
 @media (min-width: 1024px) and (max-width: 1100px){
 	ul.nav {
 		position: absolute;
@@ -275,6 +298,12 @@ a.active {
 	}
 }
 
+@media (min-width: 1300px)and (max-width:1415px)and (min-height:720px ) and (max-height: 740px){
+	ul.nav {
+		position: absolute;
+		top: 5%
+	}
+   } */
 	/* These are the individual list items in the gallery nav */
 
 
