@@ -569,7 +569,7 @@ img.bio {
 .recentptg	{
 	width: 100%;
 	display: block;
-	text-align: center;
+	text-align: left;
 	height: 421px;
 	position: sticky;
 	top: 500px;
