@@ -307,7 +307,7 @@ li.nav		{
 	padding-left: 10px;
 	height: 25px;
 	border-radius: 30px 40px;
-	z-index:1;
+	z-index:99;
 }
 
 
