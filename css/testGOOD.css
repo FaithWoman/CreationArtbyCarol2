@@ -154,7 +154,7 @@ This is the list of links in the nav
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: space-between;
-	border: solid 10px black;
+	
 	}
 }
 
@@ -195,7 +195,6 @@ div.nav		{
 	margin-left: 5px;
 	display: flex;
 	width: 100%;
-	border: solid 10px maroon;
 	align-content: flex-end;
 	
 	
@@ -556,7 +555,7 @@ img.bio {
 	height: 421px;
 	position: sticky;
 	top: 500px;
-	left: 20px;
+	left: 0px;
 	
 }
 }
@@ -595,10 +594,12 @@ img.bio {
 
 @media (max-width: 600px){
 .recentptgcontainer  {
+	position: absolute;
+	left: 10px;
 	Width: 303px;
 	margin-left: 10px;
 	height: 421px;
-	margin-right: 0px;
+	margin-right: 40px;
 	box-shadow: 5px 5px 5px 3px maroon; 
 }
 }
@@ -648,7 +649,7 @@ img.bio {
 		font-weight: 600;
 		font-style: italic;
 		color:maroon#553344;
-		font-size:10pt;	
+		font-size:14pt;	
 		}
 	}
 		/* right panel image toggle links to online galleries/	 */
