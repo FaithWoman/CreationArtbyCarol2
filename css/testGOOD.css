@@ -192,8 +192,8 @@ div.nav		{
  div.nav		{
 	position: absolute;
 	top: 10px;
-	left: 5px;
-	margin-left: 3px;
+	left: 0px;
+	
 	display: flex;
 	width: 100%;
 	align-content: flex-end;
@@ -224,7 +224,7 @@ div.nav		{
 	ul.nav {
 		position: absolute;
 		top: 10px;	
-		left: 3px;
+		left: 0px;
 		width: 100%;
 		padding: 0;
 		/* margin-left 15px; */
