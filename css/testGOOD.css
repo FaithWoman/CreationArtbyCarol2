@@ -128,7 +128,7 @@ h1 {
 
 This is the list of links in the nav
 
-	nav		{
+	nav.nav1		{
 	display: flex;
 	flex-direction: row;
 	width:80%;
@@ -138,10 +138,10 @@ This is the list of links in the nav
 	height: auto;	
 	margin-bottom: 25px;
 	overflow: visible;
-	border: solid 10px darkgreen;
+	/* border: solid 10px darkgreen; */
 } 
 	@media (max-width: 600px){
-	nav{
+	nav.nav1{
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
@@ -186,7 +186,7 @@ div.nav		{
 	margin-bottom: 25px;
 	overflow: visible;
 /* border	: solid maroon 10px; */
-z-index: 98	
+/* z-index: 98	 */
 } 
 @media (max-width: 600px){
  div.nav		{
@@ -207,14 +207,14 @@ z-index: 98
 	display: flex;
 	flex-direction: row;
 	list-style: none;
-	font-size: 15pt;
+	font-size: 16pt;
 	font-weight: 800;
 	width: 100%;
 	justify-content: flex-end;
 	align-content: flex-end;
-	margin-left: 5px;
     margin-top: 20px;
-	margin-bottom: 100px;
+	margin-bottom: 20px;
+	z-index:99;
 	/* border: dotted 5px black; */
 
 }
@@ -272,27 +272,28 @@ a.active {
 		position: absolute;
 		top: 5%
 	}
-   } */
+   } 
 	/* These are the individual list items in the gallery nav */
 
 
 li.nav		{
 	display; flex;
-	justify-content: center;
+	justify-content: space-around;
+	
 	align-items: center;
 	width: 150px;
-	margin: 8px;
+	margin: 15px;
 	margin-top: 10px;
 	margin-bottom: 25px;
 	color: #antiquewhite;
 	font-weight: 800;
-	font-size: 15pt;
+	font-size: 16pt;
 	font-style: italic;
 	padding-left: 10px;
 	height: 25px;
 	border-radius: 30px 40px;
-	/* border: solid maroon 5px; */
-	z-index:99;
+	/* border: solid black 5px; */
+	z-index: 99;
 }
 
 
@@ -621,7 +622,7 @@ img.bio {
 	font-weight: 600;
 	font-style: italic;
 	color:maroon#553344;
-	font-size:14pt;
+	font-size:18pt;
 	/* margin-top: 5px; */	
 	}
 	@media (max-width: 600px){	
