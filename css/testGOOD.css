@@ -159,13 +159,13 @@ This is the list of links in the nav
 }
 
 @media (min-width: 1024px)and (max-width:1100px){
-nav{
+nav.nav1{
 	top: 12%;
 }
 }
 
 @media (min-width: 1300px)and (max-width:1415px)and (min-height:720px ) and (max-height: 740px){
-nav {
+nav.nav1 {
 	top: 25%;
 }
 
@@ -299,7 +299,7 @@ li.nav		{
 
 @media (max-width: 600px){
 	li.nav{
-		font-size: 12pt;
+		font-size: 11pt;
 		/* margin-right: 15px;
 		margin-left: 15px; */
 		padding-top; 5px;
