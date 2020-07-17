@@ -194,6 +194,8 @@ div.nav		{
 	margin-left: 40px;
 	width: 150px
 	border: solid 10px maroon;
+	align-content: flex-end;
+	align-items: flex-end;
 	
 	
 }
