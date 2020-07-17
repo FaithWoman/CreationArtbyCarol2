@@ -128,7 +128,7 @@ h1 {
 
 This is the list of links in the nav
 
-	/* nav		{
+	nav		{
 	display: flex;
 	flex-direction: row;
 	width:80%;
@@ -139,15 +139,15 @@ This is the list of links in the nav
 	margin-bottom: 25px;
 	overflow: visible;
 	border: solid 10px darkgreen;
-} */
-	/* @media (max-width: 600px){
+} 
+	@media (max-width: 600px){
 	nav{
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
 	position: absolute;
 	top: 18%;
-	left: 40px;
+	left: 20px;
 	min-width: 480px;
 	max-width: 600px;
 	display: flex;
@@ -156,7 +156,7 @@ This is the list of links in the nav
 	justify-content: space-between;
 	border: solid 10px black;
 	}
-} */
+}
 
 @media (min-width: 1024px)and (max-width:1100px){
 nav{
@@ -190,12 +190,14 @@ div.nav		{
 @media (max-width: 600px){
  div.nav		{
 	position: absolute;
-	top: 18%;
-	margin-left: 40px;
-	width: 150px
+	top: 0;
+	left: 10px;
+	margin-left: 5px;
+	display: flex;
+	width: 100%;
 	border: solid 10px maroon;
 	align-content: flex-end;
-	align-items: flex-end;
+	
 	
 	
 }
@@ -221,16 +223,16 @@ div.nav		{
  @media (max-width: 600px){
 	ul.nav {
 		position: absolute;
-		top: 5%;	
-		left: 40px;
-		width: 200px;
+		top: 0;	
+		left: 5px;
+		width: 100%;
 		padding: 0;
-		margin-left 30px;
+		/* margin-left 15px; */
 		align-content: flex-end;
 		/* justify-content: space-around;
 	align-content: center;
 	margin-left: 10px; */
-	/* border: solid 10px darkorchid; */
+	
 	}
 } 
 	
@@ -270,30 +272,6 @@ a.hover {
 }
 a.active {
 	color: #334255;
-}
-/* This is the nav list that holds the gallery links
-	ul.nav		{
-	display: flex;
-	flex-direction: row;
-	list-style: none;
-	font-size: 24pt;
-	font-weight: 800;
-	width: 100%;
-	justify-content: flex-end;
-	align-content: flex-end;
-	border: solid 10px red	
-} */
-/* @media (max-width: 600px){
-	ul.nav {
-		position: absolute;
-		top: 5%;	
-		left: 5%;
-		width: 100%;
-		padding: 0;
-		justify-content: flex-start;
-	align-content: flex-start;
-	border: solid 10px darkorchid;
-	}
 }
 
 	
@@ -337,12 +315,15 @@ li.nav		{
 @media (max-width: 600px){
 	li.nav{
 		font-size: 12pt;
-		padding: 10px;
+		/* margin-right: 15px;
+		margin-left: 15px; */
 		padding-top; 5px;
 		padding-bottom: 5px;
 		width: 100%;
-		justify-content: space-between;
+		/* justify-items: space-between; */
+		/* border: solid black 5px; */
 		
+		z-index: 99;
 		
 	}	
 	}
