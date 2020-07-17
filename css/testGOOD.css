@@ -177,7 +177,7 @@ div.nav		{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: center;
+	align-content: flex-start;
 	position: absolute;
 	top: 130px;
 	right: 100px;
@@ -185,12 +185,13 @@ div.nav		{
 	margin-top: 25px;	
 	margin-bottom: 25px;
 	overflow: visible;
-/* border	: solid maroon 10px;	*/
+/* border	: solid maroon 10px; */
+z-index: 98	
 } 
 @media (max-width: 600px){
  div.nav		{
 	position: absolute;
-	top: 0;
+	top: 10px;
 	left: 10px;
 	margin-left: 5px;
 	display: flex;
@@ -222,7 +223,7 @@ div.nav		{
  @media (max-width: 600px){
 	ul.nav {
 		position: absolute;
-		top: 0;	
+		top: 10px;	
 		left: 5px;
 		width: 100%;
 		padding: 0;
@@ -235,23 +236,6 @@ div.nav		{
 	}
 } 
 	
-/* @media (min-width: 1024px) and (max-width: 1100px){
-	ul.nav {
-		position: absolute;
-		left:0;
-	}
-}
-
-@media (min-width: 1300px)and (max-width:1415px)and (min-height:720px ) and (max-height: 740px){
-	ul.nav {
-		position: absolute;
-		top: 5%;
-		border: solid black 5px;
-	}
-   } */
-
-
-
 
 
 li a	{
@@ -307,6 +291,7 @@ li.nav		{
 	padding-left: 10px;
 	height: 25px;
 	border-radius: 30px 40px;
+	/* border: solid maroon 5px; */
 	z-index:99;
 }
 
