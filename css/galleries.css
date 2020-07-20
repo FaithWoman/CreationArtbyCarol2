@@ -496,6 +496,16 @@ div.footerI	{
 	}
 }
 
+@media (min-width: 2000px){
+	div.footerI{
+	position: absolute; 
+	
+	top: 5000px;
+	left: 100px;
+	/* border: solid black 10px; */
+
+	}
+}
 
 
 
