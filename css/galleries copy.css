@@ -322,7 +322,7 @@ div.p-galleryname1b	{
 div.p-galleryname2	{
 	text-align: left;
 	position: relative;
-	top: 350px;
+	top: 600px;
 	font-size: 20pt;
 	font-weight: 600;
 	color: #552243;
@@ -335,8 +335,8 @@ div.p-galleryname2	{
 
 	div.p-galleryname2-b	{
 		text-align: left;
-		position: relative;
-		top: 20px;
+		position: absolute;
+		top: 300px;
 		font-size: 20pt;
 		font-weight: 600;
 		color: #552243;
