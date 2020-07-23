@@ -34,212 +34,138 @@
 			<div class="gallery">
 			<h2 class="gallery-heading">Galleries I</h2>
 			 
-		  
-		  
-	
+		
+		 
 	  
-	  <!-- The four columns -->
 	  
-	  <div class="container">
-		<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-		<img id="expandedImg" class="painting" style="width:50%;">
-		<div id="imgtext"></div>
-	  </div>
+	  
+
+<!--First Gallery on the page, rows 1 and 2> -->
+
+<p><div class="p-galleryname1a" id="landandsea"> Land and Sea (Isaiah 11:9) . . .</p>
+ <span class="scripture"><span><sup>9</sup></span>They shall not hurt nor destroy in all my holy mountain: for the earth shall be full of the knowledge of the Lord, as the waters cover the sea. 
+ </span></p><br>
+<div class="row">
 
 	
 	  
 	  
-	  <!--First Gallery on the page, 1 row only> -->
 	  
-	  <p><div class="p-galleryname1a" id="landandsea">Land and Sea</p>
-		<div class="row">
 
 		
-		<div class="column">
-		  	<img  src="images/LWMAC2017.jpg" alt="Trees in Sun and Shadow" style="width:100%" onclick="myFunction(this);">
-			</div>
-	  
-		<div class="column">
-					  <img src="images/Harpersbig.jpg" alt="House in Harper's Ferry" style="width:100%" onclick="myFunction(this);">
-					</div>
+			<script>
 
-		<div class="column">
-						<img src="images/shenandoahbarn.jpg" alt="Hidden in the Past" style="width:100%" onclick="myFunction(this);">
-					  </div>
-		
-		<div class="column">
-						<img src="images/greenglen.png" alt="Green Glen" style="width:100%" onclick="myFunction(this);">
-					  </div>
-		</div>
-					  
-		<div class="row">
-		
-		<div class="column">
-		<img src="images/Tidal-Walk.png" alt="Tidal Walk" style="width:100%" onclick="myFunction(this);">
-		 	</div>
-
-		<div class="column">
-		  	<img src="images/shellssand.jpg" alt="Seashells Ashore" style="width:100%" onclick="myFunction(this);">
-			</div>
-		
-		<div class="column">
-		  		<img src="images/ocean.jpg" alt="San Diego Surf" style="width:100%" onclick="myFunction(this);">
-			</div>
-		
-		
-		<div class="column">
-		  		<img src="images/Storm-Subsides.jpg" alt="Storm Subsides" style="width:100%" onclick="myFunction(this);">
-				</div>
-				  </div>
-				  
-		 <div class="row">
-		
-		<div class="column">
-				<img src="images/LWWoods.png" alt="Forest" style="width:100%" onclick="myFunction(this);">
-			</div>
-			
-		<div class="column">
-				<img src="images/LWPatuxentWildlife.jpg" alt="Autumn Trees" style="width:100%" onclick="myFunction(this);">
-			</div>
-					
-		<div class="column">
-				<img src="images/cherryblossomfolk.jpg" alt="Cherry Blossom Folk" style="width:100%" onclick="myFunction(this);">
-				<div class="column">
-					
-			   </div>
-   
-		</div>
-					
-		<div class="column">
-				<img src="images/LDNarBirdhouse2015.jpg" alt="Bird's Rustic Home'" style="width:100%" onclick="myFunction(this);">
-			</div>
-			</div>
-		
-		<div class="row">
-		
-		<div class="column">
-				<img src="images/Ocean3.jpg" alt="waves in Ssn Diego" style="width:100%" onclick="myFunction(this);">
-			</div>
-						
-		<div class="column">
-				<img src="images/BeachResonance.JPG" alt="Beach Resonance" style="width:100%" onclick="myFunction(this);">
-			</div>
-								
-			<div class="column">
-				<img src="images/sunsetbig.jpg" alt="Sunset Over the Bay"
-				style="width:100%" onclick="myFunction(this);">
-		   </div>
-		
-			<div class="column">
-				<img src="images/OceanPacific-1-2017.jpg" alt="Pounding Surf" style="width:100%" onclick="myFunction(this);">
-			</div>			
-			</div>
-			<!-- <p><div class="p-galleryname1a" id="landandsea">and in between</p>
-				<div class="row">
-		 -->
-
-			<div class="row">
-		
-				<div class="column">
-						<img src="images/AWTurtleTableau.JPG" alt="Turtle Tableau" style="width:100%" onclick="myFunction(this);">
-					</div>
-								
-				<div class="column">
-						<img src="images/Sailboat2016.JPG" alt="Sailboat Serenity" style="width:100%" onclick="myFunction(this);">
-					</div>
-										
-					<div class="column">
-						<img src="images/ontheway.jpg" alt="Fishing Ship Launch"
-						style="width:100%" onclick="myFunction(this);">
-				   </div>
+				//Show clicked image in the large img tag
 				
-					<div class="column">
-						<img src="images/jonasgreenharbor.jpg" alt="Desired Haven" style="width:100%" onclick="myFunction(this);">
-					</div>			
-					</div>
-										
-
-	  <!--Second Gallery on the page, row 1 and 2> -->
-	  
-	  <div><p class="galleryname2" id="wildandtame">Wild and Tame</p>
-		<div class="row">
-
-			<div class="column">
-		  		<img src="images/llamas.jpg" alt="Llama and Mama" style="width:100%" onclick="myFunction(this);">
-				</div>
-
-				<div class="column">
-					<img src="images/tiger.jpg" alt="White Tiger" style="width:100%" onclick="myFunction(this);">
-				  </div>
-
-			<div class="column">
-		  		<img src="images/giraffe.jpg" alt="Girafter" style="width:100%" onclick="myFunction(this);">
-				</div>
-
-				<div class="column">
-					<img src="images/AWAmidsttheAsters2018.jpg" alt="Amidst the Asters" style="width:100%" onclick="myFunction(this);">
-				  </div>
-			  </div>
-			
-			</div>
+				function showbig(pic) {
+				document.getElementById("bigpic").src = pic;
 				
+				}
+				
+				function showbig2(pic) {
+				document.getElementById("bigpic2").src = pic;
+				
+				}
+				</script>
+				<style>
+				/*CSS code to style the pictures */
+				
+				.carousel {
+				text-align: center;
+				
+				
+				}
+				
+				#bigpic {
+				height: 400px;
+				opacity: 1;
+				}
+				
+				#bigpic2 {
+				height: 400px;
+				opacity:1;
+				}
+				
+				.thumbs img {
+				height: 200px;
+				width: 200px;
+				opacity: .7;
+				}
+				
+				</style>
+				
+				</head>
+				
+				
+				
+				<body>
+				
+				<!--HTML to display the pictures -->
+				
+
+				
+				<div class="carousel">
+				
+				<img src="imagescopy/landsea01.jpg" alt="" id = "bigpic">
+				<p></p><br>
+				
+				
+				<div class="thumbs">
+				
+				<img src="imagescopy/landsea01.jpg" alt="" onclick="showbig(this.src)">
+				<img src="imagescopy/landsea02.jpg" alt="" onclick="showbig(this.src)">
+				<img src="imagescopy/landsea03.jpg" alt="" onclick="showbig(this.src)">
+				<img src="imagescopy/landsea04.jpg" alt="" onclick="showbig(this.src)">
+				<img src="imagescopy/landsea05.jpg" alt="" onclick="showbig(this.src)">
+				<img src="imagescopy/landsea06.jpg" alt="" onclick="showbig(this.src)">
+				<img src="imagescopy/landsea07.jpg" alt="" onclick="showbig(this.src)">
+				<img src="imagescopy/landsea08.jpg" alt="" onclick="showbig(this.src)">
+				<img src="imagescopy/landsea09.jpg" alt="" onclick="showbig(this.src)">
+				<img src="imagescopy/landsea10.jpg" alt="" onclick="showbig(this.src)">
+				<img src="imagescopy/landsea11.jpg" alt="" onclick="showbig(this.src)">
+				<img src="imagescopy/landsea12.jpg" alt="" onclick="showbig(this.src)">
+				<!-- <img src="imagescopy/bird15.jpg" alt="" onclick="showbig(this.src)"> -->
+				
+				</div><!-- End Thumbs -->
+				</div><!-- End carousel -->
+					
+	   <!--Second Gallery on the page-->
+	  
+	   			
+				
+				
+		<p><div class="p-galleryname2-b" id="wildandtame" ><p>Wild and Tame (Psalm 50:10) . . .</p></div><br>
+		<span class="scripture"><sup>10</sup> For every beast of the forest is mine, and the cattle upon a thousand hills.  Psalm 50:10 </span></p><br>
+			
 		<div class="row">
-
-				<div class="column">
-					<img src="images/cowbig.jpg" alt="Shenandoah Cow" style="width:100%" onclick="myFunction(this);">
-				</div>
-			
-				<div class="column">
-				<img src="images/horsewbangs.jpg" alt= "Farmhorse with Bangs" style="width:100%" onclick="myFunction(this);">
-			  </div>
-
-			<div class="column">
-		  		<img src="images/Thor.jpg" alt="Thor, Andria's Cat" style="width:100%" onclick="myFunction(this);">
-				</div>
-
-			<div class="column">
-		  		<img src="images/horsebrown.jpg" alt="Sparkle the Horse" style="width:100%" onclick="myFunction(this);">
-				</div>
-			</div>
-			
 	
-	  
-	  <!--Second Gallery on the page, row 3 and 4> -->
-	  
-	  <div class="row">
-		<div class="column">
-			<img src="images/lion.jpg" alt="Lion" style="width:100%" onclick="myFunction(this);">
-			</div>
-
-		<div class="column">
-		  	<img src="images/AWbunnybrown.jpg" alt="Little Brown Bunny" style="width:100%" onclick="myFunction(this);">
-			</div>
-
-		<div class="column">
-		  	<img src="images/zebra.jpg" alt="Zebra" style="width:100%" onclick="myFunction(this);">
-			</div>
-	
-		<div class="column">
-		  	<img src="images/AWTurtleEscape.jpg" alt="Turtle Escape" style="width:100%" onclick="myFunction(this);">
-			</div>
-		</div>
-
-	<div class="row">
-	  	<div class="column">
-		<img src="images/ADMillie2.JPG" alt="Millie" style="width:100%" onclick="myFunction(this);">
-		</div>
-		
-		<div class="column">
-		<img src="images/bunnytame.jpg" alt="Tame Bunny" style="width:100%" onclick="myFunction(this);">
-		</div>
-
-		<div class="column">
-		<img src="images/abby.jpg" alt="Abby the Cat" style="width:100%" onclick="myFunction(this);">
-		</div>
-
-		<div class="column">
-		<img src="images/ADFishDaves2017.jpg" alt="Goldfish Going" style="width:100%" onclick="myFunction(this);">
-		</div>
+						   
+				
+				<div class="carousel">
+				
+				<img src="imagescopy/wildtame01.jpg" alt="" id = "bigpic2">
+				<br>
+				<br>
+				<br>
+				
+				<div class="thumbs">
+				<img src="imagescopy/wildtame01.jpg" alt="" onclick="showbig2(this.src)">
+				<img src="imagescopy/wildtame02.jpg" alt="" onclick="showbig2(this.src)">
+				<img src="imagescopy/wildtame03.jpg" alt="" onclick="showbig2(this.src)">
+				<img src="imagescopy/wildtame04.jpg" alt="" onclick="showbig2(this.src)">
+				<img src="imagescopy/wildtame05.jpg" alt="" onclick="showbig2(this.src)">
+				<img src="imagescopy/wildtame06.jpg" alt="" onclick="showbig2(this.src)">
+				<img src="imagescopy/wildtame07.jpg" alt="" onclick="showbig2(this.src)">
+				<img src="imagescopy/wildtame08.jpg" alt="" onclick="showbig2(this.src)">
+				<img src="imagescopy/wildtame09.jpg" alt="" onclick="showbig2(this.src)">
+				<img src="imagescopy/wildtame10.jpg" alt="" onclick="showbig2(this.src)">
+				<img src="imagescopy/wildtame11.jpg" alt="" onclick="showbig2(this.src)"> 
+				<img src="imagescopy/wildtame12.jpg" alt="" onclick="showbig2(this.src)">
+				<!-- <img src="imagescopy/flower13.jpg" alt="" onclick="showbig2(this.src)">
+				<img src="imagescopy/flower14.jpg" alt="" onclick="showbig2(this.src)"> -->
+				
+				</body>
+				</html>
 	 <br>
 	<br>
 		<div class="footerI">email: <a href="mailto:carolscards@verizon.net?Subject=Watercolor%20Paintings%20and%20Cards" target="_top">Carol's Cards</a>   call: 240-475-4219 </a>
@@ -249,7 +175,7 @@
 	</div>
 	  
 	  
-
+</div>
 
 	
 
@@ -258,7 +184,7 @@
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
- <script src="js/galleries.js"></script>	
+ <script src="js/galleries copy.js"></script>	
 	</body>
 
 <html>
