@@ -353,11 +353,14 @@ div.p-galleryname2	{
 				/* top: 80px; */
 		}
 		}
-/* .scriptureGall {
+.scriptureGall {
 	display: flex;
+	flex-align: center;
 	flex-direction: row;
-	align-content: space around;
-}	 */
+	justify-content: space-between;
+	padding: 10px;
+	flex-wrap: wrap
+}	
 
 /* The grid: eight equal columns that float next to each other */
 .column {
