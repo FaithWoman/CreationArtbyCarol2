@@ -144,7 +144,7 @@ div.nav		{
 	position: absolute;
 	top: 100px;
 	right: 100px;
-	margin-left: 30px;
+	margin-left: 20px;
 	margin-top: 25px;	
 	margin-bottom: 25px;
 	overflow: visible;	
@@ -252,9 +252,15 @@ div.gallery{
 	width: 100%;
 	text-align: center;
 	margin-top: 25px;
-	text-align: center;
+	
 	
 	}
+
+	@media (min-width: 1600px)and (max-width: 2000px){
+		{
+			width: 80%;
+		}
+
 
 div.gallery-heading{
 	position: absolute;
