@@ -371,13 +371,15 @@ div.p-galleryname2	{
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 10px;
-	flex-wrap: wrap
+	flex-wrap: wrap;
+	text-decoration: none;
 }	
 
 div.desc
 	{
 		font-size: 15pt;
 		color:#553243;
+		
 	}
 
 	@media (max-width: 600px){
@@ -385,7 +387,9 @@ div.desc
 			font-size: 11pt
 		}
 	}
-
+.Gods {
+	text-decoration: none;
+}
 	/* Bottom of Page with Contact Informtion */
 
 
