@@ -256,11 +256,7 @@ div.gallery{
 	
 	}
 
-	@media (min-width: 1600px)and (max-width: 2000px){
-		{
-			width: 80%;
-		}
-
+	
 
 div.gallery-heading{
 	position: absolute;
@@ -368,7 +364,7 @@ div.p-galleryname2	{
 	flex-wrap: wrap
 }	
 
-/* The grid: eight equal columns that float next to each other */
+/* The grid: eight equal columns that float next to each other
 .column {
   float: left;
   width: 20%;
@@ -376,7 +372,7 @@ div.p-galleryname2	{
  }
 
 /* Style the images inside the grid */
-.column img {
+/* .column img {
   opacity: 0.7; 
   cursor: pointer; 
 }
@@ -390,30 +386,30 @@ img.painting	{
 
 .column img:hover {
   opacity: 1;
-}
+} */
 /* Clear floats after the columns */
-.row:after {
+/* .row:after {
   content: "";
   display: flex;
   clear: both;
-}
+} */
 
 /* The expanding image container */
-.container{
+/* .container{
  position: absolute;
  top: 300px;
  bottom: 0;
  align: center;
  display: none;
 z-index: 10;
-}
+} */
 
 
 
 
 
 /* Expanding image text */
-#imgtext {
+/* #imgtext {
   position: relative;
   bottom: 15px;
   color:  #553243;
@@ -429,9 +425,9 @@ z-index: 10;
 #imgtext {
 font-size: 12pt;
 }
-}
+} */
 /* Closable button inside the expanded image */
-.closebtn {
+/* .closebtn {
   position: relative;
   bottom: 10px;
   left: 50%;
@@ -444,7 +440,7 @@ font-size: 12pt;
 
 a	{
 	text-decoration: none;
-}
+} */ */
 
 div.desc
 	{
