@@ -156,9 +156,9 @@ ul.nav		{
 	list-style: none;
 	font-size: 24pt;
 	font-weight: 800;
-	width: 100%;
+	width: 90%;
 	justify-content: flex-end;
-	align-content: flex-end;	
+	/* align-content: center;	 */
 }
 
 
@@ -231,6 +231,7 @@ h2 	{
 	font-family: 'Gudea', sans-serif;
 	color: #553243;
 	text-align: left;
+	margin-left: 25px;
 	font-size: 24pt;
 	
 }
@@ -243,17 +244,26 @@ h2 	{
 }
 }
 
-/* Gallery Pages I and II */
+/* Gallery Pages I, II, III */
 
-div.gallery{
+.gallery{
+	
 	position: absolute;
 	top: 150px;
-	left:100px;
+	left: 5px;
+	margin-left:15px;
+	margin-right: 50px;
 	width: 100%;
-	text-align: center;
 	margin-top: 25px;
 	
 	
+	}
+
+	@media (min-width: 1600px)and (max-width: 2000px){
+		{
+			.gallery
+			width: 70%;
+		}
 	}
 
 	
@@ -363,84 +373,6 @@ div.p-galleryname2	{
 	padding: 10px;
 	flex-wrap: wrap
 }	
-
-/* The grid: eight equal columns that float next to each other
-.column {
-  float: left;
-  width: 20%;
-  padding: 5px;
- }
-
-/* Style the images inside the grid */
-/* .column img {
-  opacity: 0.7; 
-  cursor: pointer; 
-}
-
-img.painting	{
-	border: 50px solid gray;
-	align: center;
-	background-color: antiquewhite;
-	
-}
-
-.column img:hover {
-  opacity: 1;
-} */
-/* Clear floats after the columns */
-/* .row:after {
-  content: "";
-  display: flex;
-  clear: both;
-} */
-
-/* The expanding image container */
-/* .container{
- position: absolute;
- top: 300px;
- bottom: 0;
- align: center;
- display: none;
-z-index: 10;
-} */
-
-
-
-
-
-/* Expanding image text */
-/* #imgtext {
-  position: relative;
-  bottom: 15px;
-  color:  #553243;
-  font-size: 18pt; 
-  font-weight: 800;
-  opacity: 1;
-  background-color:antiquewhite;
-  margin: 0 auto;
-  align: center;
-  width: 50%;
-}
-@media (max-width: 600px){
-#imgtext {
-font-size: 12pt;
-}
-} */
-/* Closable button inside the expanded image */
-/* .closebtn {
-  position: relative;
-  bottom: 10px;
-  left: 50%;
-  color: white;
-  outline-color: maroon;
-  text-shadow: maroon;
-  font-size: 35px;
-  cursor: pointer;
-}
-
-a	{
-	text-decoration: none;
-} */ */
 
 div.desc
 	{

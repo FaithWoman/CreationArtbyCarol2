@@ -45,7 +45,7 @@
 <p><div class="p-galleryname1a" id="designofman"> Design of Man (Proverbs 19:21) . . .</p>
  <span class="scripture"><span><sup>21</sup></span>There are many plans in a man’s heart, Nevertheless the LORD’s counsel—that will stand. 
  </span></p><br>
-<div class="row">
+
 
 	
 	  
@@ -71,9 +71,14 @@
 				/*CSS code to style the pictures */
 				
 				.carousel {
-				text-align: center;
+				text-align: center
 				
-				
+				}
+
+				@media (min-width: 1600px)and (max-width: 2000px){
+					.carousel{
+						width: 70%;
+					}
 				}
 				
 				#bigpic {
@@ -103,7 +108,7 @@
 				<!--HTML to display the pictures -->
 				
 
-				
+				<!-- <div class="gallery"> -->
 				<div class="carousel">
 				
 				<img src="imagescopy/man01.jpg" alt="" id = "bigpic">
