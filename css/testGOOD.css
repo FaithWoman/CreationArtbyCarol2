@@ -1233,12 +1233,12 @@ span.subm {
 border: solid 10px brightpink;
 } */
 
-.footer	{
+div.footer	{
 		display: block;
 		text-align: center;
 		width: 100%;
 		position: absolute;
-		top: 610px;
+		top: 700px;
 		bottom:0;
 		/* left: 0px; */
 		padding: 10px;
@@ -1247,13 +1247,13 @@ border: solid 10px brightpink;
 		font-style: italic; 
 		color: #553344;	
 		background-color: antiquewhite;
-		margin-top: 10px;
+		margin-top: 25px;
 	
 }
 
  @media (max-width: 600px){
 	
-	.footer {
+	div.footer {
 	display: block;
 	font-size: 10pt;
 	width: 	300%;

@@ -398,7 +398,7 @@ div.footerI	{
 		display: block;
 		text-align: center;
 		width: 100%;
-		position: absolute;
+		position: sticky;
 		top:2300px;
 		left:25px;
 		bottom:0;
@@ -434,7 +434,7 @@ div.footerI	{
 	div.footerI{
 	position: absolute; 
 	
-	top: 4200px;
+	top: 2800px;
 	left: 100px;
 	/* border: solid black 10px; */
 
@@ -443,9 +443,9 @@ div.footerI	{
 
 @media (min-width: 2000px){
 	div.footerI{
-	position: absolute; 
+	position: sticky; 
 	
-	top: 5000px;
+	top: 3000px;
 	left: 100px;
 	/* border: solid black 10px; */
 
