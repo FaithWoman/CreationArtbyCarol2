@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title> Creation Art by Carol</title>
+
+<!-- Accordion -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+		
+
+        $(document).ready(function () {
+            $('.accordion .term').click(function () {
+                if ($(this).next('p').is(':hidden')) {
+            //Hide all dropdown panels.
+            $('.accordion p').slideUp('fast');
+}
+
+   //Toggle the paragraph below the term that was clicked.
+   $(this).next('p').slideToggle('fast');
+
+            });
+		});
+	
+    </script>
+    
+<link rel="stylesheet" href="css/normalize.css" type="text/css">
+<link rel="stylesheet" href="css/testGOOD.css" type="text/css">
+<link rel="stylesheet" href="css/style2.css" type="text/css">
+<link rel="stylesheet" href="css/carousel.css"  type="text/css">      
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">   
+    
+<link href="https://fonts.googleapis.com/css?family=Gudea|Martel:300,400,600,800&display=swap" rel="stylesheet">
+<style>
+	/* Container for all terms and definitions */
+	.accordion {
+		position: sticky;
+		top: 5px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: start;
+		/* background-color: #eef; */
+		width: 700px;
+		margin: 1em auto;
+				border-radius: 5px;
+		font-family: Verdana, Tahoma, Sans-Serif;
+	}
+	@media (max-width: 600px){
+		.accordion{
+			width: 481px;
+
+	}
+}
+	/* term box contains the term to be defined */
+	.term {
+		padding: 8px 48px 8px 4px;
+		background: url(images/tinyarrow.png) no-repeat 98% center;
+		background-color:#552233;
+		opacity: .5;
+		border: solid 4px 2px maroon;
+		box-shadow: 5px 5px 5px 5px maroon;
+		text-align: right;
+		color: antiquewhite;
+		font-weight: 600;
+		border-radius: 5px;
+		font-size:1.1em;
+		width: 700px;
+		margin-bottom: 1em;		
+	}
+	@media (max-width: 600px){
+		.term{
+			width: 481px;
+
+	}
+}
+	
+	/* Paragraph contains the definition. */
+	.accordion p {
+		margin: 0;
+		padding: 0.5em;
+		background-color: antiquewhite;
+		color: maroon;
+		/* border-radius: 5px; */
+		width: 700px;
+		display: none;
+	}
+	@media (max-width: 600px){
+		.accordion p{
+			width: 481px;
+	}
+}
+	#myDIV {
+  width: 302px;
+  height: 421px;
+  position: sticky;
+  background-image: url("images/Thorsmall.jpg");
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: 99;
+  border= solid 5px black;
+  -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 5s infinite;
+}
+@media (max-width: 600px){
+	#myDIV {
+		width: 303px;
+		height: 421px;
+	}
+	}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  from {opacity: 0);}
+  to {opacity: .8;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+   from {opacity: 0);}
+  to {opacity: .8;}
+}
+
+	
+</style>
+</head>
+
+
+<body>
+
+
+<div class="container-top" id="top">
+	<h1>Carol's Colors <span class="heading">Watercolor Depictions</span></h1>
+	</div>
+
+<nav class="nav1">
+	<div class = "nav">
+		<ul class="nav">
+			<li class="nav"><a href="index.html">Artist Info</li></a>
+			<li class="nav"><a href="galleriesI.html">Galleries I</li></a>
+			<li class="nav"><a href="galleriesII.html">Galleries II</li></a>
+			<li class="nav"><a href="galleriesIII.html">Galleries III</li></a>
+			
+
+		</ul>
+	</div>
+</nav>
+	<div class="multi">
+	<div class="intro">		
+		<p class="intro-title">About the Artist</p>
+		<p class="bio"><img class="bio" src="images/CaroljLeo.jpg" alt="female artist smiling"><span class="intro-sub">Artist Statement:</span>
+		<span class="intro-p1">I have been painting for the past 20 years. Watercolor is a great way to reflect back the light, glimmer, and sparkle that we see in God's created world. I am only beginning to learn the rudiments of this elusive medium. Effectively painting with water and pigment is a lifelong pursuit that brings joy to the artist and viewers.</span><br><br>
+			
+				
+			<span class="intro-sub">Artist Bio:</span>
+			
+			<span class="intro-p1"> Carol Leo enjoys the imagery of God's created world and her art is an expression of the beauty that she sees.
+			
+			Since picking up the paint brush again after a long break, she has concentrated on watercolor painting and finds a never-ending source of inspiration in nature. The purity and strength of this water-based medium lends itself to an honest depiction of trees, animals, skies and water. Her theory is that watercolor has inherent characteristics that lend themselves perfectly to the depiction of living creatures, which are comprised primarily of water.<br>
+			
+			
+			For two years, Carol majored in art at the University of Maryland. Her formal art education continues today through training by teachers and workshop leaders. She grew up with a legacy of family artists, including her mother, aunt, uncle, and grandparents who had painted for a living as well as a great grandfather, Abbott H. Thayer who was a well-known American artist in the late 19th, early 20th century and is represented in art museums today. Also a naturalist who became known as the father of modern camouflage, Thayer&#39s love of nature continues to be reflected in his offspring of several generations.<br>
+		
+			Carol is a signature member of <a href="https://www.baltimorewatercolorsociety.org/" target="_blank">BWS (The Baltimore Watercolor Society)</a>, <a href="https://washingtonwatercolor.com/" target="_blank">WWCA (the Washington Watercolor Association)</a> and a member of <a href="https://laurelartguild.org/" target="_blank">LAG (Laurel Art Guild)</a> as well as <a href="https://www.hocoarts.org/about-us/what-we-do/howard-county-center-arts/" target="_blank">HoCo (Howard County Arts Council)</a>and <a href="https://www.montgomeryart.org/MAA" target="_blank">MAA (Montgomery County Art Association).</a> <br>
+			<img class="pleinair" src="images/pleinair.png" alt="artist painting outdoors">A large amount of her artwork is accomplished in an informal studio in her home, but plein air painting is her passion, and whenever possible her studio is the great outdoors as she participates in outdoor painting events. She sells paintings regularly, as well as note cards reproduced from the paintings; and participates in local art shows.<br>
+			Carol considers her spiritual journey and salvation experience as her primary inspiration and impetus for doing art. Her thought is that besides being an awesome and loving God, His visual design and artistic principles are the ultimate example of beauty in this physical world.</span><br><br>
+
+
+
+			<span class="intro-sub">Most Recent Painting:&nbsp&nbsp&nbsp&nbsp&nbsp</span><span class="recentn">Thor, Andria's Cat</span></p>
+			<div class="recentptg">
+				<div class="recentptgcontainer">	
+				<div id="myDIV"></div></p>
+			</div>
+		</div>
+	
+<div style="border: solid black 5px">
+<!--HTML to display the pictures -->
+
+Most Recent Painting - Farm Friends (Oxon Cove Park)
+
+<div class="carousel">
+
+<img src="imagescopy/OxC01.jpg" alt="" id = "bigpic">
+
+<div class="thumbs">
+<img class="arrow" src="imagescopy/arrowLt.png" alt "Previous" onclick="calcslide (-1)">
+
+<img src="imagescopy/OxC01.jpg" alt="" onclick="showbig(this.src)">
+<img src="imagescopy/OxC02.jpg" alt="" onclick="showbig(this.src)">
+<img src="imagescopy/OxC03.jpg" alt="" onclick="showbig(this.src)"><br>
+<img src="imagescopy/OxC04.jpg" alt="" onclick="showbig(this.src)">
+<img src="imagescopy/OxC05.jpg" alt="" onclick="showbig(this.src)">
+<img src="imagescopy/OxC06.jpg" alt="" onclick="showbig(this.src)">
+<img class="arrow" src="imagescopy/arrowRt.png" alt "Next" onclick="calcslide (1)">
+
+<br>
+</div>
+
+</div> 
+	
+
+<div class= "container">			
+<div class="exhibits">
+		
+				
+					
+						<p class="heading"> OnSite Galleries</p>
+								
+						
+								<div class="card">
+									<a target="_blank" href="galleriesI.html#landandsea">
+									<img class="one" src="images/greenglen.png" alt="Green Glen">
+										<img src="images/Tidal-Walk.png" class="img-top" alt="Beach Scene">
+										<div class="galleryn">Land and Sea</div></a>
+										
+										</div>
+								
+								<div class="card">
+									<a target="_blank" href="galleriesI.html#wildandtame">
+									<img class="one" src="images/AWTurtleEscape.jpg" alt="Turtle">	
+									<img  src="images/ADFishDaves2017.jpg" class="img-top" alt="goldfish">
+									<div class="galleryn">Wild and Tame</div></a>		
+										</div>
+										
+							
+								<div class="card">
+									<a target="_blank" href="galleriesII.html#considerthefowls">
+										<img class="one" src="images/BWparrotClatterbuck.png" alt="Parrot Bright">										
+										<img  src="images/BWGullGathering.png" class="img-top" alt="Flying Flock">
+										<div class="galleryn">Consider the Fowl</div></a>
+										</div>
+										
+								<div class="card">
+									<a target="_blank" href="galleriesII.html#considerthelilies">
+										<img class="one" src="images/Rosefirstbloom2020.JPG" alt="First Bloom">
+										<img  src="images/FDIris2019.jpeg" class="img-top" alt="Iris Purple">
+										<div class="galleryn">Consider the Lilies</div></a>
+										</div>
+											
+								<div class="card" style="align-self: center">
+										<a target="_blank" href="galleriesIII.html#designofman">	
+										<img class="one" src="images/LDchurchstreetupper2019.jpg" alt="Upper Church Street">
+										<img  src="images/EllicottCity.jpg"  class="img-top"  alt="Lower Church Street">
+										<div class="galleryn">Design of Man</div></a><br>
+										</div>
+
+										<div class="card" style="align-self: center">
+											<a target="_blank" href="galleriesIII.html#designofGod">	
+											<img class="one" src="images/AWButterfly2020 (2).JPG" alt="Monarch in Thistle">
+											<img  src="images/LWIsaiah 60-1 (2).jpg" class="img-top" alt="Sunset over ocean">
+											<div class="galleryn">Design of God</div></a><br>
+											</div>		
+									</div> 
+								</div> 
+			
+			
+ </div>					
+
+
+ <div class="neath-multi"> 
+	<!--This is the div holding the schedule ihformation in accordian format-->
+		
+<div class="schedule">
+			
+						<!-- Start accordion -->
+						<div class="accordion">
+							<!-- The short text goes in the term div -->
+							<div class="term" style="text-align: center; font-size: 16pt">
+								Upcoming Exhibits and Events
+							</div><!-- End term -->
+							<!-- The definition or longer text goes in the next paragraph -->
+							<p>note that August and September exhibits are online</a></p>	
+								<!-- The short text goes in the term div -->
+								<div class="term">
+									LAG Member Gallery</span>
+								</div><!-- End term -->
+								<!-- The definition or longer text goes in the next paragraph -->
+								<p><a href="https://www.laurelartguild.org/ZenXhibit/cleo/" target="_blank">Ongoing online gallery pages on the LAG site</a></p>	
+								<!-- The short text goes in the term div -->
+								<div class="term">
+									MAA "Plein Air", September 1-30, 2020</span>
+								</div><!-- End term -->
+								<!-- The definition or longer text goes in the next paragraph -->
+								<p><a href="https://www.montgomeryart.org/" target="_blank">Exhibit of Plein Air by MAA artists, see "Lake Kittamagundi"</a></p>		
+								
+								<!-- The short text goes in the term div -->
+								<div class="term">
+									WWCA, "Life's Simple Pleasures", October 1-31, 2020 </span>
+								</div><!-- End term -->
+								<!-- The definition or longer text goes in the next paragraph -->
+								<p><a href="https://washingtonwatercolor.com/" target="_blank">Exhibit of watercolors by WWCA artists, see "My Sheep"</a></p>	
+								
+								<!-- The short text goes in the term div -->
+								<div class="term">
+									BWS, Signature Members Show, October 3-November 1, 2020 </span>
+								</div><!-- End term -->
+								<!-- The definition or longer text goes in the next paragraph -->
+								<p><a href="https://delaplaine.org/" target="_blank">Delaphine Gallery, Frederick, MD, see "Turtle Tableau"</a></p>	
+								
+								<!-- The short text goes in the term div -->
+								<div class="term">
+									City of Gaithersburg, "Celebrating Wildlife", January 21-March 15, 2021</span>
+								</div><!-- End term -->
+								<!-- The definition or longer text goes in the next paragraph -->
+								<p><a href="https://www.gaithersburgmd.gov/about-us/city-facilities/activity-center-at-bohrer-park" target="_blank">Activity Center at Bohrer Park Gallery, see "My Domain"</a></p>	
+								
+								<!-- The short text goes in the term div -->
+								<div class="term" style="text-align: center">
+									Receive email updates from the artist
+								</div><!-- End term -->
+								<!-- The definition or longer text goes in the next paragraph -->
+								<p><a href="#name" target="_blank">Keep in contact, leave a comment, hear about events</a></p>
+
+							<!-- end accordian-->	
+							</div>
+
+						<!--This is the form to receive email-->			
+						<div class="email">
+								<p><form id="contact" action="https://formspree.io/mvoornjd" method="POST">
+									<div>
+									<label  for="name">Name</label>
+									<input  type="text" name="first" placeholder="Name" id="name">
+									</div>
+									
+									<div>
+									<label for="email">Email</label>
+									<input type="text" name="last" placeholder="Email" id="email">
+									</div>
+											 
+									<label> for="message">Message</label>
+									<textarea type="text" name="message" placeholder="Message"></textarea>
+									
+									<input type="Submit" id="Submit" value="Let's Go!" placeholder="Message">
+								
+								</form>
+							</div>
+						</div>
+
+							
+						
+
+		
+						<div class= "footer">	email:&nbsp  <a href="mailto:carolscards@verizon.net?Subject=Watercolor%20Paintings%20and%20Cards" target="_top">Carol's Cards&nbsp&nbsp</a>&nbsp240-475-4219 &nbsp&nbsp&nbsp&nbsp <span class="returnlink"><a href="index.html#top">Return to Top&nbsp&nbsp&nbsp</a></span></div>
+	
+					
+					
+																
+					
+		
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+ <!-- <script src="js/drop.js"></script>-->
+ <script src="js/index.js"></script> 
+ <script src="js/OxonCoveCarousel.js"></script>
+</body>
+
+</html>
